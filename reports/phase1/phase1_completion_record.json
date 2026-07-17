@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "selected_features": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V10",
+    "V14",
+    "V17",
+    "Amount_log1p"
+  ],
+  "vat_method": "MST-based Prim ordering",
+  "vat_sample_size": 500,
+  "generated_figures": [
+    "reports/figures/phase1_amount_log_transform.png",
+    "reports/figures/phase1_scaling_before_after.png",
+    "reports/figures/phase1_pca_explained_variance.png",
+    "reports/figures/phase1_pca_density.png",
+    "reports/figures/phase1_umap_density.png",
+    "reports/figures/phase1_hopkins_results.png",
+    "reports/figures/phase1_vat_mst_heatmap.png",
+    "reports/figures/phase1_feature_boxplots.png",
+    "reports/figures/phase1_feature_qqplots.png",
+    "reports/figures/phase1_feature_pairplot.png",
+    "reports/figures/phase1_significance_masked_correlation.png"
+  ],
+  "generated_pdf": "reports/phase1/phase1_eda_report.pdf"
+}
