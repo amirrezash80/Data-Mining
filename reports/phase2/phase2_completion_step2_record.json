@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "sample_size": 2000,
+  "candidate_k_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "configured_fixed_height_ratio": 0.7,
+  "linkages": [
+    "single",
+    "complete",
+    "average",
+    "ward"
+  ],
+  "best_linkage": "single",
+  "best_strategy": "fixed_height",
+  "best_actual_k": 2,
+  "best_silhouette": 0.8881794513916383,
+  "generated_figures": [
+    "reports/figures/phase2/hierarchical_cut_strategy_dendrograms.png",
+    "reports/figures/phase2/hierarchical_cut_strategy_metrics.png",
+    "reports/figures/phase2/hierarchical_cut_strategy_agreement.png"
+  ]
+}

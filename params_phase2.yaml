@@ -21,6 +21,7 @@ kmeans:
   max_iter: 300
 
 hierarchical:
+  fixed_height_ratio: 0.70
   linkages:
     - single
     - complete
