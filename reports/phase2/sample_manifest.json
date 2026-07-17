@@ -1,0 +1,8 @@
+{
+  "selection_policy": "Random selection from Phase 1 training indices without using Class labels.",
+  "representation": "X_pca",
+  "sample_size": 6000,
+  "feature_count": 28,
+  "seed": 42,
+  "class_used_for_sampling": false
+}

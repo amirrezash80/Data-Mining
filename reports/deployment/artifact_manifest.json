@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-07-16T20:58:22.823718+00:00",
+  "artifacts": {
+    "data/processed/phase1_arrays.npz": {
+      "sha256": "c836b06b9a0a44c0ac692cb6fe7cf16a49f346720507554cda3700597ebf1dcf",
+      "size_bytes": 92207906
+    },
+    "data/interim/creditcard_clean.parquet": {
+      "sha256": "59333836766520e9f6b668e1e15b6e196f34fc86b4313fa7c0d99f3294a97b26",
+      "size_bytes": 74496255
+    },
+    "data/processed/features_unscaled.parquet": {
+      "sha256": "afd9f033dfdf0f99d362fe959a4b24dfd9750caffb5306cd1d7b4f11b880a6bf",
+      "size_bytes": 74383963
+    },
+    "data/processed/metadata_and_labels.parquet": {
+      "sha256": "4dc16767d6cb852cbfea87cb4fff00c5a3be97f562a6f751a06aa72dff11bcd2",
+      "size_bytes": 3212264
+    },
+    "data/processed/phase3_consensus_assignments.parquet": {
+      "sha256": "9a723c13e93987ee3f49dd17b2f164884337a5f29b038a58e438964b2a6a22a0",
+      "size_bytes": 59257
+    },
+    "models/standard_scaler.joblib": {
+      "sha256": "82c239afed05080e92cceb429326da2798bc4f08f4aab36d8c4683d30f4e7d5d",
+      "size_bytes": 1343
+    },
+    "models/pca_standard.joblib": {
+      "sha256": "9b4311834dd031217ed30daacd03bf8cd5a9ebca0546372fda664f46a4b26631",
+      "size_bytes": 8798
+    },
+    "models/registry/consensus_assignment_registry.npz": {
+      "sha256": "ea17051b9d99e7b31ca1c351fc837d8229184271776558dc4390e7439103aca0",
+      "size_bytes": 1217
+    }
+  }
+}

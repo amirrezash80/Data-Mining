@@ -1,0 +1,11 @@
+repetition,seed,sample_size_m,dimension_power,hopkins,scaler
+1,42,500,31,1.0,standard
+2,43,500,31,1.0,standard
+3,44,500,31,1.0,standard
+4,45,500,31,0.9997846494144916,standard
+5,46,500,31,1.0,standard
+1,42,500,31,1.0,robust
+2,43,500,31,1.0,robust
+3,44,500,31,1.0,robust
+4,45,500,31,0.9999974139565678,robust
+5,46,500,31,1.0,robust

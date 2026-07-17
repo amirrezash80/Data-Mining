@@ -1,0 +1,39 @@
+2026-07-16 22:03:42,605 | INFO | ============================================================
+2026-07-16 22:03:42,605 | INFO | Phase 1 pipeline started
+2026-07-16 22:03:42,605 | INFO | Project root: /Users/nic/Desktop/Data-mining/credit-card-clustering
+2026-07-16 22:03:42,605 | INFO | ============================================================
+2026-07-16 22:03:42,609 | INFO | Random seed: 42
+2026-07-16 22:03:42,609 | INFO | Raw file already exists; download skipped: /Users/nic/Desktop/Data-mining/credit-card-clustering/data/raw/creditcard.csv
+2026-07-16 22:03:42,721 | INFO | Reading raw dataset: /Users/nic/Desktop/Data-mining/credit-card-clustering/data/raw/creditcard.csv
+2026-07-16 22:03:44,126 | INFO | Raw dataset loaded: 284807 rows, 31 columns
+2026-07-16 22:03:44,822 | INFO | Cleaning dataset
+2026-07-16 22:03:45,688 | INFO | Cleaning completed: 284807 -> 283726 rows
+2026-07-16 22:03:47,026 | INFO | Building clustering features
+2026-07-16 22:03:47,056 | INFO | Feature matrix created: 283726 rows, 31 features
+2026-07-16 22:03:48,027 | INFO | Fitting standard scaler on training partition.
+2026-07-16 22:03:48,124 | INFO | Fitting robust scaler on training partition.
+2026-07-16 22:03:49,674 | INFO | Fitting diagnostic PCA.
+2026-07-16 22:03:49,930 | INFO | Selected 28 PCA components for variance threshold 0.950.
+2026-07-16 22:03:51,030 | INFO | Calculating repeated Hopkins statistics
+2026-07-16 22:03:51,683 | INFO | Calculating VAT matrix
+2026-07-16 22:03:51,706 | INFO | Calculating distance diagnostics
+2026-07-16 22:03:58,031 | INFO | Generating Phase 1 figures
+2026-07-16 22:03:58,821 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-16 22:03:58,827 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-16 22:03:59,751 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase1_class_distribution.png
+2026-07-16 22:04:00,352 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase1_amount_log_transform.png
+2026-07-16 22:04:04,757 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase1_univariate_distributions.png
+2026-07-16 22:04:06,148 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase1_feature_correlation.png
+2026-07-16 22:04:06,883 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase1_scaling_before_after.png
+2026-07-16 22:04:07,134 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase1_pca_explained_variance.png
+2026-07-16 22:04:07,638 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase1_pca_density.png
+2026-07-16 22:04:07,841 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase1_hopkins_results.png
+2026-07-16 22:04:08,315 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase1_vat_heatmap.png
+2026-07-16 22:04:08,317 | INFO | Fitting UMAP on 10000 records.
+2026-07-16 22:04:54,155 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase1_umap_density.png
+2026-07-16 22:04:54,223 | INFO | Phase 1 summary saved to: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/phase1/phase1_execution_summary.md
+2026-07-16 22:04:54,224 | INFO | ============================================================
+2026-07-16 22:04:54,224 | INFO | Phase 1 completed successfully in 1.19 minutes
+2026-07-16 22:04:54,224 | INFO | Reports directory: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/phase1
+2026-07-16 22:04:54,224 | INFO | Figures directory: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures
+2026-07-16 22:04:54,224 | INFO | ============================================================

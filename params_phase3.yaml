@@ -1,0 +1,55 @@
+project:
+  random_seed: 42
+
+data:
+  phase1_arrays: data/processed/phase1_arrays.npz
+  unscaled_features: data/processed/features_unscaled.parquet
+  metadata: data/processed/metadata_and_labels.parquet
+  phase2_sample: reports/phase2/evaluation_sample_indices.csv
+  phase2_results: reports/phase2/final_comparison.csv
+
+consensus:
+  sample_size: 2500
+  k_min: 2
+  k_max: 8
+
+  kmeans_seeds:
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+
+  gmm_seeds:
+    - 42
+    - 43
+    - 44
+
+  feature_dimensions:
+    - 5
+    - 10
+    - 15
+    - 20
+
+  gmm_covariance_types:
+    - diag
+    - full
+
+evaluation:
+  silhouette_sample_size: 2000
+
+interpretation:
+  tree_max_depth: 4
+  tree_min_samples_leaf: 30
+  top_features_per_cluster: 5
+  exemplars_per_cluster: 3
+
+anomaly:
+  top_n: 100
+  contamination_quantile: 0.99
+
+sensitivity:
+  kmeans_n_init: 20
+
+plots:
+  dpi: 180

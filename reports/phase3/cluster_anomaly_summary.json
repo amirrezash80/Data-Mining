@@ -1,0 +1,10 @@
+{
+  "threshold": 8.432275339515975,
+  "quantile": 0.99,
+  "top_n": 100,
+  "flagged_count": 25,
+  "flagged_fraction": 0.01,
+  "fraud_rate_all": 0.002,
+  "fraud_rate_top_n": 0.03,
+  "fraud_rate_flagged": 0.08
+}

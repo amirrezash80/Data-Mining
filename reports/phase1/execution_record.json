@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 71.619517459,
+  "elapsed_minutes": 1.1936586243166665,
+  "random_seed": 42,
+  "raw_rows": 284807,
+  "clean_rows": 283726,
+  "feature_count": 31,
+  "pca_components": 28
+}

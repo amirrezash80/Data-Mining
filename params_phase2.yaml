@@ -1,0 +1,56 @@
+project:
+  random_seed: 42
+
+data:
+  input_file: data/processed/phase1_arrays.npz
+  representation: X_pca
+
+sampling:
+  evaluation_size: 6000
+  hierarchy_dendrogram_size: 2000
+  silhouette_sample_size: 3000
+  stability_anchor_size: 1500
+
+cluster_search:
+  k_min: 2
+  k_max: 8
+  gap_reference_datasets: 5
+
+kmeans:
+  n_init: 20
+  max_iter: 300
+
+hierarchical:
+  linkages:
+    - single
+    - complete
+    - average
+    - ward
+
+dbscan:
+  min_samples:
+    - 10
+    - 20
+    - 30
+  eps_quantiles:
+    - 0.85
+    - 0.90
+    - 0.95
+    - 0.97
+    - 0.99
+
+gmm:
+  covariance_types:
+    - spherical
+    - diag
+    - tied
+    - full
+  n_init: 3
+  max_iter: 300
+
+stability:
+  seed_runs: 20
+  bootstrap_runs: 10
+
+plots:
+  dpi: 180

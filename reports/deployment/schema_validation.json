@@ -1,0 +1,9 @@
+{
+  "status": "valid",
+  "row_count": 283726,
+  "unscaled_feature_count": 31,
+  "standard_feature_count": 31,
+  "pca_feature_count": 28,
+  "train_count": 226980,
+  "test_count": 56746
+}

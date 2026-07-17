@@ -1,0 +1,36 @@
+project:
+  name: credit-card-fraud-clustering
+  random_seed: 42
+
+data:
+  phase1_arrays: data/processed/phase1_arrays.npz
+  cleaned_data: data/interim/creditcard_clean.parquet
+  unscaled_features: data/processed/features_unscaled.parquet
+  metadata: data/processed/metadata_and_labels.parquet
+  consensus_assignments: data/processed/phase3_consensus_assignments.parquet
+
+models:
+  scaler: models/standard_scaler.joblib
+  reducer: models/pca_standard.joblib
+  registry_directory: models/registry
+
+reports:
+  phase1_summary: reports/phase1/phase1_execution_summary.md
+  phase2_summary: reports/phase2/phase2_execution_summary.md
+  phase3_summary: reports/phase3/phase3_execution_summary.md
+  phase2_comparison: reports/phase2/final_comparison.csv
+  phase3_comparison: reports/phase3/advanced_method_comparison.csv
+  cluster_profiles: reports/phase3/cluster_profiles.csv
+  cluster_labels: reports/phase3/cluster_domain_labels.csv
+  fraud_composition: reports/phase3/fraud_composition.csv
+  anomaly_summary: reports/phase3/cluster_anomaly_summary.json
+  sensitivity: reports/phase3/preprocessing_sensitivity_ari.csv
+  output_directory: reports/deployment
+  final_report: reports/final/final_technical_report.md
+
+drift:
+  bins: 10
+  psi_warning_threshold: 0.10
+  psi_refit_threshold: 0.25
+  ks_warning_threshold: 0.10
+  ks_pvalue_threshold: 0.01

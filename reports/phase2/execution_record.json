@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 46.585876375,
+  "elapsed_minutes": 0.7764312729166666,
+  "representation": "X_pca",
+  "evaluation_size": 6000,
+  "random_seed": 42,
+  "selected_models": {
+    "kmeans": {
+      "k": 2
+    },
+    "hierarchical": {
+      "k": 2,
+      "linkage": "single"
+    },
+    "dbscan": {
+      "parameters": "eps=11.405267,min_samples=30"
+    },
+    "gmm": {
+      "k": 8,
+      "covariance_type": "full"
+    }
+  }
+}

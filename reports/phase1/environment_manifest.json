@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-07-16T18:34:54.156312+00:00",
+  "python_version": "3.9.6 (default, Oct 18 2022, 12:41:40) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "sklearn": "1.6.1",
+    "matplotlib": "3.9.4",
+    "seaborn": "0.13.2",
+    "umap": "0.5.12",
+    "joblib": "1.5.3"
+  }
+}

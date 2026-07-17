@@ -1,0 +1,18 @@
+{
+  "initial_rows": 284807,
+  "final_rows": 283726,
+  "initial_missing_cells": 0,
+  "missing_by_column": {},
+  "removed_rows_with_missing_or_malformed_values": 0,
+  "initial_exact_duplicate_rows": 1081,
+  "remove_exact_duplicates": true,
+  "removed_exact_duplicates": 1081,
+  "removed_negative_amount_rows": 0,
+  "removed_negative_time_rows": 0,
+  "removed_invalid_class_rows": 0,
+  "sorting": "Ascending by Time using stable sort.",
+  "label_policy": "Class is retained only for external evaluation and is never included in scaling, PCA, UMAP fitting, Hopkins, VAT, or clustering input.",
+  "missing_value_policy": "No arbitrary imputation is used. Malformed/missing records are removed and counted because artificial fills can create spurious distance structure.",
+  "duplicate_policy": "Exact duplicates are removed when enabled because duplicate records artificially inflate local density. A later sensitivity analysis should also rerun the final clustering without duplicate removal.",
+  "genuine_outlier_policy": "Large but valid transactions and unusual PCA-feature values are retained because genuine anomalies are central to the research question."
+}

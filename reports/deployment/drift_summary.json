@@ -1,0 +1,11 @@
+{
+  "created_at_utc": "2026-07-16T20:58:22.707544+00:00",
+  "reference_records": 226980,
+  "current_records": 56746,
+  "stable_features": 16,
+  "warning_features": 9,
+  "refit_features": 6,
+  "maximum_psi": 8.611627938723117,
+  "maximum_ks": 0.5780817702505449,
+  "refit_recommended": true
+}

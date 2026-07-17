@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 42.527700040999996,
+  "elapsed_minutes": 0.7087950006833332,
+  "random_seed": 42,
+  "sample_size": 2500,
+  "base_clustering_count": 322,
+  "selected_consensus_k": 2,
+  "actual_cluster_count": 2
+}

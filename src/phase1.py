@@ -1416,37 +1416,555 @@ def write_phase1_summary(
 
 ## Label-isolation policy
 
-The `Class` field was not included in feature engineering, scaling, PCA,
-UMAP, Hopkins, VAT, or distance diagnostics. It is retained only for
-external evaluation in Phase 2.
+The `Class` field was excluded from feature engineering, scaling,
+PCA, UMAP, Hopkins, VAT, and distance diagnostics.
+
+It is retained only for external evaluation in Phase 2.
 
 ## Engineered representation
 
 The clustering matrix contains:
 
-- PCA-anonymised transaction variables `V1` through `V28`
+- Variables `V1` through `V28`
 - `log(1 + Amount)`
-- cyclic time-of-day features `Time_sin` and `Time_cos`
-
-The raw `Amount` field was not added alongside `Amount_log1p` because
-doing so would duplicate the contribution of transaction amount.
+- `Time_sin`
+- `Time_cos`
 
 ## Scaling
 
-Both `StandardScaler` and `RobustScaler` were fitted only on the first
-temporal training partition. The same fitted parameters were used to
-transform the held-out portion. The primary Phase 1 representation is
-StandardScaler so that Hopkins is reported on a standardised feature
-matrix; RobustScaler is retained for Phase 2 sensitivity analysis.
+Two scaling methods were fitted on the training partition:
+
+- StandardScaler
+- RobustScaler
+
+The held-out partition was transformed using the same fitted
+parameters.
 
 ## PCA
 
-Selected principal components: {pca.n_components_}
-
-Explained variance captured by selected PCA:
-{float(np.sum(pca.explained_variance_ratio_)):.6f}
+- Selected principal components: {pca.n_components_}
+- Explained variance: {float(np.sum(pca.explained_variance_ratio_)):.6f}
 
 ## Hopkins repeated results
 
 ```text
 {grouped_hopkins.to_string()}
+
+"""
+    path = REPORT_PHASE1 / "phase1_execution_summary.md"
+    path.write_text(summary, encoding="utf-8")
+    logging.info("Phase 1 summary saved to: %s", path)
+
+
+def run_pipeline(force_download: bool = False) -> None:
+    ensure_directories()
+    setup_logging()
+    set_plot_style()
+
+    start_time = time.perf_counter()
+
+    logging.info("=" * 60)
+    logging.info("Phase 1 pipeline started")
+    logging.info("Project root: %s", ROOT)
+    logging.info("=" * 60)
+
+    try:
+        # -------------------------------------------------------------
+        # 1. Read configuration
+        # -------------------------------------------------------------
+        params = load_params()
+        seed = int(params["project"]["random_seed"])
+
+        np.random.seed(seed)
+        logging.info("Random seed: %d", seed)
+
+        # -------------------------------------------------------------
+        # 2. Download/read raw data
+        # -------------------------------------------------------------
+        raw_path = DATA_RAW / params["data"]["raw_filename"]
+
+        download_file(
+            urls=DATA_URLS,
+            destination=raw_path,
+            force=force_download,
+        )
+
+        raw_hash = sha256_file(raw_path)
+
+        logging.info("Reading raw dataset: %s", raw_path)
+        raw_df = pd.read_csv(raw_path, low_memory=False)
+
+        logging.info(
+            "Raw dataset loaded: %d rows, %d columns",
+            raw_df.shape[0],
+            raw_df.shape[1],
+        )
+
+        # -------------------------------------------------------------
+        # 3. Raw-data validation and profiling
+        # -------------------------------------------------------------
+        raw_validation = validate_raw_schema(raw_df)
+
+        save_json(
+            raw_validation,
+            REPORT_PHASE1 / "raw_schema_validation.json",
+        )
+
+        raw_profile = create_data_profile(raw_df)
+
+        raw_profile.to_csv(
+            REPORT_PHASE1 / "raw_data_profile.csv",
+            index=False,
+        )
+
+        # -------------------------------------------------------------
+        # 4. Data cleaning
+        # -------------------------------------------------------------
+        logging.info("Cleaning dataset")
+
+        clean_df, cleaning_log = clean_data(
+            raw_df,
+            remove_exact_duplicates=bool(
+                params["data"]["remove_exact_duplicates"]
+            ),
+        )
+
+        logging.info(
+            "Cleaning completed: %d -> %d rows",
+            len(raw_df),
+            len(clean_df),
+        )
+
+        save_json(
+            cleaning_log,
+            REPORT_PHASE1 / "cleaning_decision_log.json",
+        )
+
+        clean_validation = validate_raw_schema(
+            clean_df.drop(columns=["row_id"])
+        )
+
+        save_json(
+            clean_validation,
+            REPORT_PHASE1 / "clean_schema_validation.json",
+        )
+
+        clean_profile = create_data_profile(clean_df)
+
+        clean_profile.to_csv(
+            REPORT_PHASE1 / "clean_data_profile.csv",
+            index=False,
+        )
+
+        clean_df.to_parquet(
+            DATA_INTERIM / "creditcard_clean.parquet",
+            index=False,
+        )
+
+        # -------------------------------------------------------------
+        # 5. Feature engineering
+        # -------------------------------------------------------------
+        logging.info("Building clustering features")
+
+        features, labels, metadata = build_features(
+            clean_df,
+            params,
+        )
+
+        logging.info(
+            "Feature matrix created: %d rows, %d features",
+            features.shape[0],
+            features.shape[1],
+        )
+
+        feature_schema = {
+            "feature_count": int(features.shape[1]),
+            "feature_names": features.columns.tolist(),
+            "class_excluded": "Class" not in features.columns,
+            "missing_cells": int(features.isna().sum().sum()),
+            "duplicate_feature_vectors": int(
+                features.duplicated().sum()
+            ),
+        }
+
+        save_json(
+            feature_schema,
+            REPORT_PHASE1 / "engineered_feature_schema.json",
+        )
+
+        features.to_parquet(
+            DATA_PROCESSED / "features_unscaled.parquet",
+            index=False,
+        )
+
+        metadata.to_parquet(
+            DATA_PROCESSED / "metadata_and_labels.parquet",
+            index=False,
+        )
+
+        # -------------------------------------------------------------
+        # 6. Temporal split
+        # -------------------------------------------------------------
+        train_indices, test_indices = temporal_split(
+            features=features,
+            metadata=metadata,
+            train_fraction=float(
+                params["data"]["train_fraction"]
+            ),
+        )
+
+        split_manifest = {
+            "method": "temporal",
+            "train_fraction": float(
+                params["data"]["train_fraction"]
+            ),
+            "train_size": int(len(train_indices)),
+            "test_size": int(len(test_indices)),
+            "train_time_min": float(
+                metadata.iloc[train_indices]["Time"].min()
+            ),
+            "train_time_max": float(
+                metadata.iloc[train_indices]["Time"].max()
+            ),
+            "test_time_min": float(
+                metadata.iloc[test_indices]["Time"].min()
+            ),
+            "test_time_max": float(
+                metadata.iloc[test_indices]["Time"].max()
+            ),
+        }
+
+        save_json(
+            split_manifest,
+            REPORT_PHASE1 / "temporal_split_manifest.json",
+        )
+
+        # -------------------------------------------------------------
+        # 7. Scaling
+        # -------------------------------------------------------------
+        scaler_outputs = fit_scalers(
+            features=features,
+            train_indices=train_indices,
+        )
+
+        scaler_summary = create_scaler_summary(
+            features,
+            scaler_outputs,
+        )
+
+        scaler_summary.to_csv(
+            REPORT_PHASE1 / "scaler_summary.csv",
+            index=False,
+        )
+
+        standard_all = scaler_outputs["standard"]["all"]
+        standard_train = scaler_outputs["standard"]["train"]
+
+        robust_all = scaler_outputs["robust"]["all"]
+        robust_train = scaler_outputs["robust"]["train"]
+
+        # -------------------------------------------------------------
+        # 8. PCA
+        # -------------------------------------------------------------
+        (
+            pca,
+            standard_train_pca,
+            standard_all_pca,
+            pca_diagnostics,
+        ) = fit_pca(
+            x_train=standard_train,
+            x_all=standard_all,
+            variance_threshold=float(
+                params["pca"]["variance_threshold"]
+            ),
+            max_components=int(
+                params["pca"]["max_components"]
+            ),
+            random_seed=seed,
+        )
+
+        pca_diagnostics.to_csv(
+            REPORT_PHASE1 / "pca_diagnostics.csv",
+            index=False,
+        )
+
+        # -------------------------------------------------------------
+        # 9. Reproducible sampling
+        # -------------------------------------------------------------
+        rng = np.random.default_rng(seed)
+
+        embedding_size = min(
+            int(params["sampling"]["embedding_size"]),
+            len(features),
+        )
+
+        embedding_indices = rng.choice(
+            len(features),
+            size=embedding_size,
+            replace=False,
+        )
+
+        reference_size = min(
+            int(
+                params["sampling"]["hopkins_reference_size"]
+            ),
+            len(standard_train),
+        )
+
+        reference_indices = rng.choice(
+            len(standard_train),
+            size=reference_size,
+            replace=False,
+        )
+
+        standard_reference = standard_train[reference_indices]
+        robust_reference = robust_train[reference_indices]
+
+        # -------------------------------------------------------------
+        # 10. Hopkins statistic
+        # -------------------------------------------------------------
+        logging.info("Calculating repeated Hopkins statistics")
+
+        hopkins_frames = []
+
+        for scaler_name, matrix in [
+            ("standard", standard_reference),
+            ("robust", robust_reference),
+        ]:
+            frame = repeated_hopkins(
+                x=matrix,
+                m=int(params["sampling"]["hopkins_m"]),
+                repetitions=int(
+                    params["sampling"]["hopkins_repetitions"]
+                ),
+                base_seed=seed,
+            )
+
+            frame["scaler"] = scaler_name
+            hopkins_frames.append(frame)
+
+        hopkins_results = pd.concat(
+            hopkins_frames,
+            ignore_index=True,
+        )
+
+        hopkins_results.to_csv(
+            REPORT_PHASE1 / "hopkins_results.csv",
+            index=False,
+        )
+
+        # -------------------------------------------------------------
+        # 11. VAT
+        # -------------------------------------------------------------
+        logging.info("Calculating VAT matrix")
+
+        vat_matrix, vat_ordered_indices = compute_vat(
+            x=standard_train_pca,
+            sample_size=int(
+                params["sampling"]["vat_size"]
+            ),
+            random_seed=seed,
+        )
+
+        np.save(
+            DATA_PROCESSED / "vat_reordered_matrix.npy",
+            vat_matrix.astype(np.float32),
+        )
+
+        pd.DataFrame(
+            {
+                "ordered_training_position":
+                    vat_ordered_indices
+            }
+        ).to_csv(
+            REPORT_PHASE1 / "vat_ordering.csv",
+            index=False,
+        )
+
+        # -------------------------------------------------------------
+        # 12. Distance diagnostics
+        # -------------------------------------------------------------
+        logging.info("Calculating distance diagnostics")
+
+        metric_results = metric_diagnostics(
+            x=standard_train_pca,
+            sample_size=int(
+                params["sampling"]["metric_comparison_size"]
+            ),
+            random_seed=seed,
+        )
+
+        metric_results.to_csv(
+            REPORT_PHASE1
+            / "distance_metric_diagnostics.csv",
+            index=False,
+        )
+
+        # -------------------------------------------------------------
+        # 13. Save Phase 2 arrays
+        # -------------------------------------------------------------
+        float_dtype = (
+            np.float32
+            if params["output"]["save_float_dtype"] == "float32"
+            else np.float64
+        )
+
+        np.savez_compressed(
+            DATA_PROCESSED / "phase1_arrays.npz",
+            X_standard=standard_all.astype(float_dtype),
+            X_robust=robust_all.astype(float_dtype),
+            X_pca=standard_all_pca.astype(float_dtype),
+            y=labels.to_numpy(dtype=np.int8),
+            row_id=metadata["row_id"].to_numpy(
+                dtype=np.int64
+            ),
+            train_indices=train_indices.astype(np.int64),
+            test_indices=test_indices.astype(np.int64),
+            feature_names=np.asarray(
+                features.columns,
+                dtype=str,
+            ),
+        )
+
+        # -------------------------------------------------------------
+        # 14. Generate figures
+        # -------------------------------------------------------------
+        logging.info("Generating Phase 1 figures")
+
+        plot_class_distribution(clean_df)
+        plot_amount_transform(clean_df)
+        plot_feature_distributions(features)
+        plot_correlation_heatmap(features)
+
+        plot_scaling_comparison(
+            features,
+            scaler_outputs,
+        )
+
+        plot_pca_diagnostics(
+            pca_diagnostics,
+            selected_components=pca.n_components_,
+        )
+
+        plot_pca_density(
+            standard_all_pca,
+            embedding_indices,
+        )
+
+        plot_hopkins(hopkins_results)
+        plot_vat(vat_matrix)
+
+        # -------------------------------------------------------------
+        # 15. UMAP
+        # -------------------------------------------------------------
+        if umap is not None:
+            fit_and_plot_umap(
+                x=standard_all,
+                metadata=metadata,
+                sample_indices=embedding_indices,
+                params=params,
+                random_seed=seed,
+            )
+        else:
+            logging.warning(
+                "UMAP skipped because umap-learn is not installed."
+            )
+
+        # -------------------------------------------------------------
+        # 16. Environment report
+        # -------------------------------------------------------------
+        environment = create_environment_manifest()
+
+        save_json(
+            environment,
+            REPORT_PHASE1 / "environment_manifest.json",
+        )
+
+        # -------------------------------------------------------------
+        # 17. Write final Phase 1 summary
+        # -------------------------------------------------------------
+        write_phase1_summary(
+            raw_df=raw_df,
+            clean_df=clean_df,
+            features=features,
+            train_indices=train_indices,
+            test_indices=test_indices,
+            pca=pca,
+            hopkins_results=hopkins_results,
+            raw_hash=raw_hash,
+        )
+
+        elapsed = time.perf_counter() - start_time
+
+        execution_record = {
+            "status": "completed",
+            "elapsed_seconds": float(elapsed),
+            "elapsed_minutes": float(elapsed / 60),
+            "random_seed": seed,
+            "raw_rows": int(len(raw_df)),
+            "clean_rows": int(len(clean_df)),
+            "feature_count": int(features.shape[1]),
+            "pca_components": int(pca.n_components_),
+        }
+
+        save_json(
+            execution_record,
+            REPORT_PHASE1 / "execution_record.json",
+        )
+
+        logging.info("=" * 60)
+        logging.info(
+            "Phase 1 completed successfully in %.2f minutes",
+            elapsed / 60,
+        )
+        logging.info(
+            "Reports directory: %s",
+            REPORT_PHASE1,
+        )
+        logging.info(
+            "Figures directory: %s",
+            REPORT_FIGURES,
+        )
+        logging.info("=" * 60)
+
+    except Exception:
+        logging.exception("Phase 1 pipeline failed")
+
+        failure_record = {
+            "status": "failed",
+            "created_at_utc": datetime.now(
+                timezone.utc
+            ).isoformat(),
+        }
+
+        save_json(
+            failure_record,
+            REPORT_PHASE1 / "execution_failed.json",
+        )
+
+        raise
+
+
+# ---------------------------------------------------------------------
+# Command-line entry point
+# ---------------------------------------------------------------------
+
+def parse_arguments() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description=(
+            "Run Phase 1 of the credit-card clustering project."
+        )
+    )
+
+    parser.add_argument(
+        "--force-download",
+        action="store_true",
+        help="Download the raw dataset again.",
+    )
+
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    arguments = parse_arguments()
+    run_pipeline(force_download=arguments.force_download)
