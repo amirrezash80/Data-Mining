@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "bootstrap_runs_per_k": 20,
+  "candidate_k_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "selected_k": 2,
+  "anchor_size": 1500,
+  "selected_k_mean_ari": 0.3554874935667789,
+  "selected_k_mean_jaccard": 0.6676665004222904,
+  "selected_k_worst_cluster_jaccard": 0.4041286502430303,
+  "matrix_diagnostics": {
+    "mean_within_cluster_probability": 0.9749857783317566,
+    "median_within_cluster_probability": 1.0,
+    "minimum_within_cluster_probability": 0.6499999761581421,
+    "mean_between_cluster_probability": 0.6194447875022888,
+    "median_between_cluster_probability": 0.6000000238418579,
+    "maximum_between_cluster_probability": 0.6499999761581421,
+    "probability_separation": 0.3555409908294678
+  },
+  "generated_figures": [
+    "reports/figures/phase2/bootstrap_stability_by_k.png",
+    "reports/figures/phase2/bootstrap_jaccard_distribution.png",
+    "reports/figures/phase2/bootstrap_coclustering_heatmap.png"
+  ]
+}
