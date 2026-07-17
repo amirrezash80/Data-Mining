@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "shap_status": {
+    "status": "skipped",
+    "reason": "shap not installed"
+  },
+  "n_clusters": 2,
+  "sample_size": 2000,
+  "generated_figures": [
+    null,
+    null
+  ],
+  "model": {
+    "type": "DecisionTreeClassifier",
+    "max_depth": 1,
+    "n_leaves": "2",
+    "training_accuracy": 0.9892
+  }
+}
