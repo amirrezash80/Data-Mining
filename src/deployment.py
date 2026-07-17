@@ -11,7 +11,6 @@ from typing import Any
 import joblib
 import numpy as np
 import pandas as pd
-import pandera.pandas as pa
 import yaml
 from pandera import Check, Column, DataFrameSchema
 from scipy.stats import ks_2samp
