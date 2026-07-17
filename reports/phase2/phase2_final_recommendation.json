@@ -1,0 +1,82 @@
+{
+  "selection_policy": "Winner selected exclusively by aggregate ranking of internal metrics: Silhouette descending, Davies-Bouldin ascending, and Calinski-Harabasz descending.",
+  "recommended_algorithm": "Hierarchical",
+  "recommended_parameters": "k=2,linkage=single",
+  "recommended_k": 2,
+  "internal_metrics": {
+    "silhouette": 0.8892326041611816,
+    "davies_bouldin": 0.077408343023204,
+    "calinski_harabasz": 132.71336077206786
+  },
+  "runtime_seconds": 0.3540026659999995,
+  "external_metrics_posthoc_only": {
+    "ari": -0.0003072213362133,
+    "nmi": 4.159802853790664e-05,
+    "ami": -0.0002600086159431,
+    "fowlkes_mallows": 0.9978346575911162,
+    "homogeneity": 2.3129547387896395e-05,
+    "completeness": 0.0002064213472209,
+    "v_measure": 4.159802853790664e-05,
+    "purity": 0.998
+  },
+  "stability": {
+    "bootstrap_ari_mean": 0.3554874935667789,
+    "bootstrap_mean_jaccard": 0.6676665004222904,
+    "bootstrap_worst_cluster_mean_jaccard": 0.4041286502430303,
+    "bootstrap_stability_level": "moderate"
+  },
+  "distance_sensitivity": {
+    "euclidean_selected_k": 2,
+    "manhattan_selected_k": 2,
+    "ari_between_selected_partitions": 1.0,
+    "distance_sensitivity_level": "low"
+  },
+  "bootstrap_matrix_diagnostics": {
+    "mean_within_cluster_probability": 0.9749857783317566,
+    "median_within_cluster_probability": 1.0,
+    "minimum_within_cluster_probability": 0.6499999761581421,
+    "mean_between_cluster_probability": 0.6194447875022888,
+    "median_between_cluster_probability": 0.6000000238418579,
+    "maximum_between_cluster_probability": 0.6499999761581421,
+    "probability_separation": 0.3555409908294678
+  },
+  "algorithm_agreement": {
+    "mean_pairwise_algorithm_ari": 0.02803467564198787,
+    "minimum_pairwise_algorithm_ari": -0.0003030895691132,
+    "maximum_pairwise_algorithm_ari": 0.0851571609017775
+  },
+  "determining_k_summary": {
+    "silhouette_selected_k": 2,
+    "maximum_kmeans_silhouette": 0.1807099228063333,
+    "kmeans_candidate_range": [
+      2,
+      8
+    ],
+    "gap_selected_k": 2,
+    "gmm_bic_selected_k": 8,
+    "gmm_bic_selected_covariance": "full",
+    "minimum_gmm_bic": -57689.97935307604
+  },
+  "reasons": [
+    "It achieved the strongest aggregate rank across Silhouette, Davies-Bouldin, and Calinski-Harabasz among the final candidate configurations.",
+    "Its Silhouette coefficient was 0.889233, indicating strong geometric separation.",
+    "Its bootstrap membership stability was classified as moderate."
+  ],
+  "limitations": [
+    "The external fraud label was not used for model selection; external scores are post-hoc descriptive evidence only.",
+    "The fraud class is highly imbalanced, so purity can be misleading.",
+    "A transaction profile cluster is not the same thing as a fraud class.",
+    "Sensitivity to changing Euclidean distance to Manhattan distance was classified as low.",
+    "Among the inspected lowest-silhouette records, the negative-silhouette fraction was 0.000000.",
+    "Hierarchical partitions depend on linkage choice and dendrogram cutting strategy."
+  ],
+  "runner_up": {
+    "algorithm": "KMeans",
+    "parameters": "k=2",
+    "k": 2,
+    "silhouette": 0.1807099228063333,
+    "davies_bouldin": 2.221314555862618,
+    "calinski_harabasz": 284.36391756604394
+  },
+  "generated_at_utc": "2026-07-17T15:38:08.672203+00:00"
+}

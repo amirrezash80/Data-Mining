@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "recommended_algorithm": "Hierarchical",
+  "recommended_parameters": "k=2,linkage=single",
+  "recommended_k": 2,
+  "selection_policy": "Winner selected exclusively by aggregate ranking of internal metrics: Silhouette descending, Davies-Bouldin ascending, and Calinski-Harabasz descending.",
+  "unified_experiment_rows": 104,
+  "scoreboard_rows": 3,
+  "generated_files": [
+    "reports/phase2/phase2_unified_performance_table.csv",
+    "reports/phase2/phase2_final_scoreboard.csv",
+    "reports/phase2/phase2_final_recommendation.json",
+    "reports/phase2/phase2_integrated_report.md",
+    "reports/phase2/phase2_integrated_report.pdf",
+    "reports/figures/phase2/phase2_internal_scoreboard.png"
+  ],
+  "generated_at_utc": "2026-07-17T15:38:16.984686+00:00"
+}
