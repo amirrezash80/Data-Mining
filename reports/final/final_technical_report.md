@@ -120,10 +120,10 @@ derived from k-nearest-neighbour distance quantiles.
 
 | algorithm    | parameters                   |   n_clusters |   noise_fraction |   silhouette |   davies_bouldin |   calinski_harabasz |      ari |     nmi |      ami |   purity |   runtime_seconds |
 |:-------------|:-----------------------------|-------------:|-----------------:|-------------:|-----------------:|--------------------:|---------:|--------:|---------:|---------:|------------------:|
-| KMeans       | k=2                          |            2 |          0       |      0.18071 |          2.22131 |             284.364 |  0.00368 | 0.00051 | -0.00015 |    0.998 |           0.1182  |
-| Hierarchical | k=2,linkage=single           |            2 |          0       |      0.88923 |          0.07741 |             132.713 | -0.00031 | 4e-05   | -0.00026 |    0.998 |           0.22058 |
-| DBSCAN       | eps=11.405267,min_samples=30 |            1 |          0.00417 |    nan       |        nan       |             nan     |  0.26708 | 0.15943 |  0.15838 |    0.998 |           0.50679 |
-| GMM          | k=8,covariance=full          |            8 |          0       |      0.03618 |          4.14734 |             134.712 |  0.00143 | 0.00514 |  0.00442 |    0.998 |           1.5517  |
+| KMeans       | k=2                          |            2 |          0       |      0.18071 |          2.22131 |             284.364 |  0.00368 | 0.00051 | -0.00015 |    0.998 |           0.1642  |
+| Hierarchical | k=2,linkage=single           |            2 |          0       |      0.88923 |          0.07741 |             132.713 | -0.00031 | 4e-05   | -0.00026 |    0.998 |           0.35094 |
+| DBSCAN       | eps=11.405267,min_samples=30 |            1 |          0.00417 |    nan       |        nan       |             nan     |  0.26708 | 0.15943 |  0.15838 |    0.998 |           0.64519 |
+| GMM          | k=8,covariance=full          |            8 |          0       |      0.03618 |          4.14734 |             134.712 |  0.00143 | 0.00514 |  0.00442 |    0.998 |           1.33283 |
 
 ## Interpretation cautions
 
@@ -159,10 +159,10 @@ See `reports/figures/phase2/`.
 ## 4. Phase 2 Final Comparison
 
    algorithm                   parameters  n_records  n_clusters  noise_fraction  runtime_seconds  silhouette  davies_bouldin  calinski_harabasz       ari      nmi       ami  fowlkes_mallows  homogeneity  completeness  v_measure  purity
-      KMeans                          k=2       6000           2        0.000000         0.118202    0.180710        2.221315         284.363918  0.003678 0.000506 -0.000146         0.920106     0.005222      0.000266   0.000506   0.998
-Hierarchical           k=2,linkage=single       6000           2        0.000000         0.220578    0.889233        0.077408         132.713361 -0.000307 0.000042 -0.000260         0.997835     0.000023      0.000206   0.000042   0.998
-      DBSCAN eps=11.405267,min_samples=30       6000           1        0.004167         0.506795         NaN             NaN                NaN  0.267077 0.159430  0.158384         0.995494     0.228865      0.122319   0.159430   0.998
-         GMM          k=8,covariance=full       6000           8        0.000000         1.551696    0.036175        4.147337         134.711995  0.001426 0.005139  0.004422         0.459180     0.319368      0.002590   0.005139   0.998
+      KMeans                          k=2       6000           2        0.000000         0.164199    0.180710        2.221315         284.363918  0.003678 0.000506 -0.000146         0.920106     0.005222      0.000266   0.000506   0.998
+Hierarchical           k=2,linkage=single       6000           2        0.000000         0.350935    0.889233        0.077408         132.713361 -0.000307 0.000042 -0.000260         0.997835     0.000023      0.000206   0.000042   0.998
+      DBSCAN eps=11.405267,min_samples=30       6000           1        0.004167         0.645193         NaN             NaN                NaN  0.267077 0.159430  0.158384         0.995494     0.228865      0.122319   0.159430   0.998
+         GMM          k=8,covariance=full       6000           8        0.000000         1.332828    0.036175        4.147337         134.711995  0.001426 0.005139  0.004422         0.459180     0.319368      0.002590   0.005139   0.998
 
 ## 5. Advanced Consensus Track
 
@@ -238,7 +238,7 @@ Consensus hierarchical clustering does not provide a native prediction method fo
 
 {
   "model_type": "Nearest-centroid assignment proxy for Phase 3 consensus clusters",
-  "fit_date_utc": "2026-07-16T20:58:20.934707+00:00",
+  "fit_date_utc": "2026-07-17T19:06:19.579748+00:00",
   "cluster_ids": [
     0,
     1
@@ -266,7 +266,7 @@ Consensus hierarchical clustering does not provide a native prediction method fo
         "n_records": 6000,
         "n_clusters": 2,
         "noise_fraction": 0.0,
-        "runtime_seconds": 0.1182022919999958,
+        "runtime_seconds": 0.1641990419999999,
         "silhouette": 0.1807099228063333,
         "davies_bouldin": 2.221314555862618,
         "calinski_harabasz": 284.36391756604394,
@@ -285,7 +285,7 @@ Consensus hierarchical clustering does not provide a native prediction method fo
         "n_records": 6000,
         "n_clusters": 2,
         "noise_fraction": 0.0,
-        "runtime_seconds": 0.2205782499999991,
+        "runtime_seconds": 0.3509353750000006,
         "silhouette": 0.8892326041611816,
         "davies_bouldin": 0.077408343023204,
         "calinski_harabasz": 132.71336077206786,
@@ -304,7 +304,7 @@ Consensus hierarchical clustering does not provide a native prediction method fo
         "n_records": 6000,
         "n_clusters": 1,
         "noise_fraction": 0.0041666666666666,
-        "runtime_seconds": 0.5067947499999992,
+        "runtime_seconds": 0.6451932910000018,
         "silhouette": NaN,
         "davies_bouldin": NaN,
         "calinski_harabasz": NaN,
@@ -323,7 +323,7 @@ Consensus hierarchical clustering does not provide a native prediction method fo
         "n_records": 6000,
         "n_clusters": 8,
         "noise_fraction": 0.0,
-        "runtime_seconds": 1.5516957919999967,
+        "runtime_seconds": 1.3328284590000052,
         "silhouette": 0.0361752746535297,
         "davies_bouldin": 4.147336611969541,
         "calinski_harabasz": 134.7119948854929,
@@ -381,7 +381,7 @@ Consensus hierarchical clustering does not provide a native prediction method fo
 ### 11.2 Temporal drift monitoring
 
 {
-  "created_at_utc": "2026-07-16T20:58:22.707544+00:00",
+  "created_at_utc": "2026-07-17T19:06:22.456346+00:00",
   "reference_records": 226980,
   "current_records": 56746,
   "stable_features": 16,

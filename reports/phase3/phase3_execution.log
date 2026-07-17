@@ -1,660 +1,660 @@
-2026-07-17 00:01:28,672 | INFO | ======================================================================
-2026-07-17 00:01:28,672 | INFO | Phase 3 started
-2026-07-17 00:01:28,672 | INFO | ======================================================================
-2026-07-17 00:01:29,218 | INFO | KMeans dim=5 k=2 seed=42
-2026-07-17 00:01:29,438 | INFO | KMeans dim=5 k=2 seed=43
-2026-07-17 00:01:29,567 | INFO | KMeans dim=5 k=2 seed=44
-2026-07-17 00:01:29,596 | INFO | KMeans dim=5 k=2 seed=45
-2026-07-17 00:01:29,626 | INFO | KMeans dim=5 k=2 seed=46
-2026-07-17 00:01:29,653 | INFO | KMeans dim=5 k=3 seed=42
-2026-07-17 00:01:29,684 | INFO | KMeans dim=5 k=3 seed=43
-2026-07-17 00:01:29,718 | INFO | KMeans dim=5 k=3 seed=44
-2026-07-17 00:01:29,747 | INFO | KMeans dim=5 k=3 seed=45
-2026-07-17 00:01:29,782 | INFO | KMeans dim=5 k=3 seed=46
-2026-07-17 00:01:29,817 | INFO | KMeans dim=5 k=4 seed=42
-2026-07-17 00:01:29,856 | INFO | KMeans dim=5 k=4 seed=43
-2026-07-17 00:01:29,900 | INFO | KMeans dim=5 k=4 seed=44
-2026-07-17 00:01:29,940 | INFO | KMeans dim=5 k=4 seed=45
-2026-07-17 00:01:29,979 | INFO | KMeans dim=5 k=4 seed=46
-2026-07-17 00:01:30,016 | INFO | KMeans dim=5 k=5 seed=42
-2026-07-17 00:01:30,062 | INFO | KMeans dim=5 k=5 seed=43
-2026-07-17 00:01:30,102 | INFO | KMeans dim=5 k=5 seed=44
-2026-07-17 00:01:30,142 | INFO | KMeans dim=5 k=5 seed=45
-2026-07-17 00:01:30,193 | INFO | KMeans dim=5 k=5 seed=46
-2026-07-17 00:01:30,230 | INFO | KMeans dim=5 k=6 seed=42
-2026-07-17 00:01:30,295 | INFO | KMeans dim=5 k=6 seed=43
-2026-07-17 00:01:30,351 | INFO | KMeans dim=5 k=6 seed=44
-2026-07-17 00:01:30,406 | INFO | KMeans dim=5 k=6 seed=45
-2026-07-17 00:01:30,467 | INFO | KMeans dim=5 k=6 seed=46
-2026-07-17 00:01:30,529 | INFO | KMeans dim=5 k=7 seed=42
-2026-07-17 00:01:30,606 | INFO | KMeans dim=5 k=7 seed=43
-2026-07-17 00:01:30,679 | INFO | KMeans dim=5 k=7 seed=44
-2026-07-17 00:01:30,758 | INFO | KMeans dim=5 k=7 seed=45
-2026-07-17 00:01:30,828 | INFO | KMeans dim=5 k=7 seed=46
-2026-07-17 00:01:30,907 | INFO | KMeans dim=5 k=8 seed=42
-2026-07-17 00:01:30,973 | INFO | KMeans dim=5 k=8 seed=43
-2026-07-17 00:01:31,053 | INFO | KMeans dim=5 k=8 seed=44
-2026-07-17 00:01:31,139 | INFO | KMeans dim=5 k=8 seed=45
-2026-07-17 00:01:31,199 | INFO | KMeans dim=5 k=8 seed=46
-2026-07-17 00:01:31,281 | INFO | KMeans dim=10 k=2 seed=42
-2026-07-17 00:01:31,329 | INFO | KMeans dim=10 k=2 seed=43
-2026-07-17 00:01:31,381 | INFO | KMeans dim=10 k=2 seed=44
-2026-07-17 00:01:31,415 | INFO | KMeans dim=10 k=2 seed=45
-2026-07-17 00:01:31,464 | INFO | KMeans dim=10 k=2 seed=46
-2026-07-17 00:01:31,500 | INFO | KMeans dim=10 k=3 seed=42
-2026-07-17 00:01:31,558 | INFO | KMeans dim=10 k=3 seed=43
-2026-07-17 00:01:31,609 | INFO | KMeans dim=10 k=3 seed=44
-2026-07-17 00:01:31,655 | INFO | KMeans dim=10 k=3 seed=45
-2026-07-17 00:01:31,703 | INFO | KMeans dim=10 k=3 seed=46
-2026-07-17 00:01:31,753 | INFO | KMeans dim=10 k=4 seed=42
-2026-07-17 00:01:31,804 | INFO | KMeans dim=10 k=4 seed=43
-2026-07-17 00:01:31,856 | INFO | KMeans dim=10 k=4 seed=44
-2026-07-17 00:01:31,910 | INFO | KMeans dim=10 k=4 seed=45
-2026-07-17 00:01:31,959 | INFO | KMeans dim=10 k=4 seed=46
-2026-07-17 00:01:32,018 | INFO | KMeans dim=10 k=5 seed=42
-2026-07-17 00:01:32,076 | INFO | KMeans dim=10 k=5 seed=43
-2026-07-17 00:01:32,147 | INFO | KMeans dim=10 k=5 seed=44
-2026-07-17 00:01:32,208 | INFO | KMeans dim=10 k=5 seed=45
-2026-07-17 00:01:32,264 | INFO | KMeans dim=10 k=5 seed=46
-2026-07-17 00:01:32,312 | INFO | KMeans dim=10 k=6 seed=42
-2026-07-17 00:01:32,373 | INFO | KMeans dim=10 k=6 seed=43
-2026-07-17 00:01:32,454 | INFO | KMeans dim=10 k=6 seed=44
-2026-07-17 00:01:32,514 | INFO | KMeans dim=10 k=6 seed=45
-2026-07-17 00:01:32,576 | INFO | KMeans dim=10 k=6 seed=46
-2026-07-17 00:01:32,644 | INFO | KMeans dim=10 k=7 seed=42
-2026-07-17 00:01:32,720 | INFO | KMeans dim=10 k=7 seed=43
-2026-07-17 00:01:32,810 | INFO | KMeans dim=10 k=7 seed=44
-2026-07-17 00:01:32,893 | INFO | KMeans dim=10 k=7 seed=45
-2026-07-17 00:01:32,969 | INFO | KMeans dim=10 k=7 seed=46
-2026-07-17 00:01:33,045 | INFO | KMeans dim=10 k=8 seed=42
-2026-07-17 00:01:33,147 | INFO | KMeans dim=10 k=8 seed=43
-2026-07-17 00:01:33,229 | INFO | KMeans dim=10 k=8 seed=44
-2026-07-17 00:01:33,311 | INFO | KMeans dim=10 k=8 seed=45
-2026-07-17 00:01:33,396 | INFO | KMeans dim=10 k=8 seed=46
-2026-07-17 00:01:33,482 | INFO | KMeans dim=15 k=2 seed=42
-2026-07-17 00:01:33,521 | INFO | KMeans dim=15 k=2 seed=43
-2026-07-17 00:01:33,561 | INFO | KMeans dim=15 k=2 seed=44
-2026-07-17 00:01:33,591 | INFO | KMeans dim=15 k=2 seed=45
-2026-07-17 00:01:33,638 | INFO | KMeans dim=15 k=2 seed=46
-2026-07-17 00:01:33,672 | INFO | KMeans dim=15 k=3 seed=42
-2026-07-17 00:01:33,720 | INFO | KMeans dim=15 k=3 seed=43
-2026-07-17 00:01:33,774 | INFO | KMeans dim=15 k=3 seed=44
-2026-07-17 00:01:33,820 | INFO | KMeans dim=15 k=3 seed=45
-2026-07-17 00:01:33,881 | INFO | KMeans dim=15 k=3 seed=46
-2026-07-17 00:01:33,936 | INFO | KMeans dim=15 k=4 seed=42
-2026-07-17 00:01:34,008 | INFO | KMeans dim=15 k=4 seed=43
-2026-07-17 00:01:34,056 | INFO | KMeans dim=15 k=4 seed=44
-2026-07-17 00:01:34,114 | INFO | KMeans dim=15 k=4 seed=45
-2026-07-17 00:01:34,171 | INFO | KMeans dim=15 k=4 seed=46
-2026-07-17 00:01:34,234 | INFO | KMeans dim=15 k=5 seed=42
-2026-07-17 00:01:34,302 | INFO | KMeans dim=15 k=5 seed=43
-2026-07-17 00:01:34,368 | INFO | KMeans dim=15 k=5 seed=44
-2026-07-17 00:01:34,438 | INFO | KMeans dim=15 k=5 seed=45
-2026-07-17 00:01:34,500 | INFO | KMeans dim=15 k=5 seed=46
-2026-07-17 00:01:34,568 | INFO | KMeans dim=15 k=6 seed=42
-2026-07-17 00:01:34,634 | INFO | KMeans dim=15 k=6 seed=43
-2026-07-17 00:01:34,697 | INFO | KMeans dim=15 k=6 seed=44
-2026-07-17 00:01:34,766 | INFO | KMeans dim=15 k=6 seed=45
-2026-07-17 00:01:34,871 | INFO | KMeans dim=15 k=6 seed=46
-2026-07-17 00:01:34,954 | INFO | KMeans dim=15 k=7 seed=42
-2026-07-17 00:01:35,048 | INFO | KMeans dim=15 k=7 seed=43
-2026-07-17 00:01:35,130 | INFO | KMeans dim=15 k=7 seed=44
-2026-07-17 00:01:35,216 | INFO | KMeans dim=15 k=7 seed=45
-2026-07-17 00:01:35,295 | INFO | KMeans dim=15 k=7 seed=46
-2026-07-17 00:01:35,393 | INFO | KMeans dim=15 k=8 seed=42
-2026-07-17 00:01:35,477 | INFO | KMeans dim=15 k=8 seed=43
-2026-07-17 00:01:35,554 | INFO | KMeans dim=15 k=8 seed=44
-2026-07-17 00:01:35,636 | INFO | KMeans dim=15 k=8 seed=45
-2026-07-17 00:01:35,741 | INFO | KMeans dim=15 k=8 seed=46
-2026-07-17 00:01:35,813 | INFO | KMeans dim=20 k=2 seed=42
-2026-07-17 00:01:35,866 | INFO | KMeans dim=20 k=2 seed=43
-2026-07-17 00:01:35,910 | INFO | KMeans dim=20 k=2 seed=44
-2026-07-17 00:01:35,955 | INFO | KMeans dim=20 k=2 seed=45
-2026-07-17 00:01:35,994 | INFO | KMeans dim=20 k=2 seed=46
-2026-07-17 00:01:36,048 | INFO | KMeans dim=20 k=3 seed=42
-2026-07-17 00:01:36,105 | INFO | KMeans dim=20 k=3 seed=43
-2026-07-17 00:01:36,157 | INFO | KMeans dim=20 k=3 seed=44
-2026-07-17 00:01:36,218 | INFO | KMeans dim=20 k=3 seed=45
-2026-07-17 00:01:36,255 | INFO | KMeans dim=20 k=3 seed=46
-2026-07-17 00:01:36,313 | INFO | KMeans dim=20 k=4 seed=42
-2026-07-17 00:01:36,376 | INFO | KMeans dim=20 k=4 seed=43
-2026-07-17 00:01:36,430 | INFO | KMeans dim=20 k=4 seed=44
-2026-07-17 00:01:36,495 | INFO | KMeans dim=20 k=4 seed=45
-2026-07-17 00:01:36,555 | INFO | KMeans dim=20 k=4 seed=46
-2026-07-17 00:01:36,623 | INFO | KMeans dim=20 k=5 seed=42
-2026-07-17 00:01:36,708 | INFO | KMeans dim=20 k=5 seed=43
-2026-07-17 00:01:36,775 | INFO | KMeans dim=20 k=5 seed=44
-2026-07-17 00:01:36,873 | INFO | KMeans dim=20 k=5 seed=45
-2026-07-17 00:01:36,940 | INFO | KMeans dim=20 k=5 seed=46
-2026-07-17 00:01:37,011 | INFO | KMeans dim=20 k=6 seed=42
-2026-07-17 00:01:37,066 | INFO | KMeans dim=20 k=6 seed=43
-2026-07-17 00:01:37,135 | INFO | KMeans dim=20 k=6 seed=44
-2026-07-17 00:01:37,216 | INFO | KMeans dim=20 k=6 seed=45
-2026-07-17 00:01:37,282 | INFO | KMeans dim=20 k=6 seed=46
-2026-07-17 00:01:37,355 | INFO | KMeans dim=20 k=7 seed=42
-2026-07-17 00:01:37,426 | INFO | KMeans dim=20 k=7 seed=43
-2026-07-17 00:01:37,511 | INFO | KMeans dim=20 k=7 seed=44
-2026-07-17 00:01:37,578 | INFO | KMeans dim=20 k=7 seed=45
-2026-07-17 00:01:37,645 | INFO | KMeans dim=20 k=7 seed=46
-2026-07-17 00:01:37,717 | INFO | KMeans dim=20 k=8 seed=42
-2026-07-17 00:01:37,801 | INFO | KMeans dim=20 k=8 seed=43
-2026-07-17 00:01:37,866 | INFO | KMeans dim=20 k=8 seed=44
-2026-07-17 00:01:37,939 | INFO | KMeans dim=20 k=8 seed=45
-2026-07-17 00:01:38,027 | INFO | KMeans dim=20 k=8 seed=46
-2026-07-17 00:01:38,099 | INFO | GMM dim=5 k=2 covariance=diag seed=42
-2026-07-17 00:01:38,110 | INFO | GMM dim=5 k=2 covariance=diag seed=43
-2026-07-17 00:01:38,118 | INFO | GMM dim=5 k=2 covariance=diag seed=44
-2026-07-17 00:01:38,128 | INFO | GMM dim=5 k=3 covariance=diag seed=42
-2026-07-17 00:01:38,137 | INFO | GMM dim=5 k=3 covariance=diag seed=43
-2026-07-17 00:01:38,147 | INFO | GMM dim=5 k=3 covariance=diag seed=44
-2026-07-17 00:01:38,156 | INFO | GMM dim=5 k=4 covariance=diag seed=42
-2026-07-17 00:01:38,167 | INFO | GMM dim=5 k=4 covariance=diag seed=43
-2026-07-17 00:01:38,177 | INFO | GMM dim=5 k=4 covariance=diag seed=44
-2026-07-17 00:01:38,187 | INFO | GMM dim=5 k=5 covariance=diag seed=42
-2026-07-17 00:01:38,200 | INFO | GMM dim=5 k=5 covariance=diag seed=43
-2026-07-17 00:01:38,208 | INFO | GMM dim=5 k=5 covariance=diag seed=44
-2026-07-17 00:01:38,217 | INFO | GMM dim=5 k=6 covariance=diag seed=42
-2026-07-17 00:01:38,231 | INFO | GMM dim=5 k=6 covariance=diag seed=43
-2026-07-17 00:01:38,252 | INFO | GMM dim=5 k=6 covariance=diag seed=44
-2026-07-17 00:01:38,278 | INFO | GMM dim=5 k=7 covariance=diag seed=42
-2026-07-17 00:01:38,294 | INFO | GMM dim=5 k=7 covariance=diag seed=43
-2026-07-17 00:01:38,307 | INFO | GMM dim=5 k=7 covariance=diag seed=44
-2026-07-17 00:01:38,331 | INFO | GMM dim=5 k=8 covariance=diag seed=42
-2026-07-17 00:01:38,344 | INFO | GMM dim=5 k=8 covariance=diag seed=43
-2026-07-17 00:01:38,357 | INFO | GMM dim=5 k=8 covariance=diag seed=44
-2026-07-17 00:01:38,371 | INFO | GMM dim=5 k=2 covariance=full seed=42
-2026-07-17 00:01:38,396 | INFO | GMM dim=5 k=2 covariance=full seed=43
-2026-07-17 00:01:38,414 | INFO | GMM dim=5 k=2 covariance=full seed=44
-2026-07-17 00:01:38,430 | INFO | GMM dim=5 k=3 covariance=full seed=42
-2026-07-17 00:01:38,445 | INFO | GMM dim=5 k=3 covariance=full seed=43
-2026-07-17 00:01:38,473 | INFO | GMM dim=5 k=3 covariance=full seed=44
-2026-07-17 00:01:38,494 | INFO | GMM dim=5 k=4 covariance=full seed=42
-2026-07-17 00:01:38,511 | INFO | GMM dim=5 k=4 covariance=full seed=43
-2026-07-17 00:01:38,557 | INFO | GMM dim=5 k=4 covariance=full seed=44
-2026-07-17 00:01:38,599 | INFO | GMM dim=5 k=5 covariance=full seed=42
-2026-07-17 00:01:38,653 | INFO | GMM dim=5 k=5 covariance=full seed=43
-2026-07-17 00:01:38,675 | INFO | GMM dim=5 k=5 covariance=full seed=44
-2026-07-17 00:01:38,700 | INFO | GMM dim=5 k=6 covariance=full seed=42
-2026-07-17 00:01:38,756 | INFO | GMM dim=5 k=6 covariance=full seed=43
-2026-07-17 00:01:38,804 | INFO | GMM dim=5 k=6 covariance=full seed=44
-2026-07-17 00:01:38,860 | INFO | GMM dim=5 k=7 covariance=full seed=42
-2026-07-17 00:01:38,953 | INFO | GMM dim=5 k=7 covariance=full seed=43
-2026-07-17 00:01:39,069 | INFO | GMM dim=5 k=7 covariance=full seed=44
-2026-07-17 00:01:39,113 | INFO | GMM dim=5 k=8 covariance=full seed=42
-2026-07-17 00:01:39,191 | INFO | GMM dim=5 k=8 covariance=full seed=43
-2026-07-17 00:01:39,234 | INFO | GMM dim=5 k=8 covariance=full seed=44
-2026-07-17 00:01:39,319 | INFO | GMM dim=10 k=2 covariance=diag seed=42
-2026-07-17 00:01:39,331 | INFO | GMM dim=10 k=2 covariance=diag seed=43
-2026-07-17 00:01:39,348 | INFO | GMM dim=10 k=2 covariance=diag seed=44
-2026-07-17 00:01:39,354 | INFO | GMM dim=10 k=3 covariance=diag seed=42
-2026-07-17 00:01:39,365 | INFO | GMM dim=10 k=3 covariance=diag seed=43
-2026-07-17 00:01:39,387 | INFO | GMM dim=10 k=3 covariance=diag seed=44
-2026-07-17 00:01:39,398 | INFO | GMM dim=10 k=4 covariance=diag seed=42
-2026-07-17 00:01:39,418 | INFO | GMM dim=10 k=4 covariance=diag seed=43
-2026-07-17 00:01:39,441 | INFO | GMM dim=10 k=4 covariance=diag seed=44
-2026-07-17 00:01:39,453 | INFO | GMM dim=10 k=5 covariance=diag seed=42
-2026-07-17 00:01:39,466 | INFO | GMM dim=10 k=5 covariance=diag seed=43
-2026-07-17 00:01:39,482 | INFO | GMM dim=10 k=5 covariance=diag seed=44
-2026-07-17 00:01:39,499 | INFO | GMM dim=10 k=6 covariance=diag seed=42
-2026-07-17 00:01:39,525 | INFO | GMM dim=10 k=6 covariance=diag seed=43
-2026-07-17 00:01:39,567 | INFO | GMM dim=10 k=6 covariance=diag seed=44
-2026-07-17 00:01:39,588 | INFO | GMM dim=10 k=7 covariance=diag seed=42
-2026-07-17 00:01:39,618 | INFO | GMM dim=10 k=7 covariance=diag seed=43
-2026-07-17 00:01:39,643 | INFO | GMM dim=10 k=7 covariance=diag seed=44
-2026-07-17 00:01:39,663 | INFO | GMM dim=10 k=8 covariance=diag seed=42
-2026-07-17 00:01:39,688 | INFO | GMM dim=10 k=8 covariance=diag seed=43
-2026-07-17 00:01:39,710 | INFO | GMM dim=10 k=8 covariance=diag seed=44
-2026-07-17 00:01:39,736 | INFO | GMM dim=10 k=2 covariance=full seed=42
-2026-07-17 00:01:39,762 | INFO | GMM dim=10 k=2 covariance=full seed=43
-2026-07-17 00:01:39,793 | INFO | GMM dim=10 k=2 covariance=full seed=44
-2026-07-17 00:01:39,815 | INFO | GMM dim=10 k=3 covariance=full seed=42
-2026-07-17 00:01:39,838 | INFO | GMM dim=10 k=3 covariance=full seed=43
-2026-07-17 00:01:39,863 | INFO | GMM dim=10 k=3 covariance=full seed=44
-2026-07-17 00:01:39,884 | INFO | GMM dim=10 k=4 covariance=full seed=42
-2026-07-17 00:01:39,934 | INFO | GMM dim=10 k=4 covariance=full seed=43
-2026-07-17 00:01:40,041 | INFO | GMM dim=10 k=4 covariance=full seed=44
-2026-07-17 00:01:40,082 | INFO | GMM dim=10 k=5 covariance=full seed=42
-2026-07-17 00:01:40,138 | INFO | GMM dim=10 k=5 covariance=full seed=43
-2026-07-17 00:01:40,197 | INFO | GMM dim=10 k=5 covariance=full seed=44
-2026-07-17 00:01:40,279 | INFO | GMM dim=10 k=6 covariance=full seed=42
-2026-07-17 00:01:40,372 | INFO | GMM dim=10 k=6 covariance=full seed=43
-2026-07-17 00:01:40,473 | INFO | GMM dim=10 k=6 covariance=full seed=44
-2026-07-17 00:01:40,573 | INFO | GMM dim=10 k=7 covariance=full seed=42
-2026-07-17 00:01:40,757 | INFO | GMM dim=10 k=7 covariance=full seed=43
-2026-07-17 00:01:40,906 | INFO | GMM dim=10 k=7 covariance=full seed=44
-2026-07-17 00:01:41,009 | INFO | GMM dim=10 k=8 covariance=full seed=42
-2026-07-17 00:01:41,125 | INFO | GMM dim=10 k=8 covariance=full seed=43
-2026-07-17 00:01:41,261 | INFO | GMM dim=10 k=8 covariance=full seed=44
-2026-07-17 00:01:41,383 | INFO | GMM dim=15 k=2 covariance=diag seed=42
-2026-07-17 00:01:41,407 | INFO | GMM dim=15 k=2 covariance=diag seed=43
-2026-07-17 00:01:41,425 | INFO | GMM dim=15 k=2 covariance=diag seed=44
-2026-07-17 00:01:41,435 | INFO | GMM dim=15 k=3 covariance=diag seed=42
-2026-07-17 00:01:41,465 | INFO | GMM dim=15 k=3 covariance=diag seed=43
-2026-07-17 00:01:41,493 | INFO | GMM dim=15 k=3 covariance=diag seed=44
-2026-07-17 00:01:41,519 | INFO | GMM dim=15 k=4 covariance=diag seed=42
-2026-07-17 00:01:41,556 | INFO | GMM dim=15 k=4 covariance=diag seed=43
-2026-07-17 00:01:41,590 | INFO | GMM dim=15 k=4 covariance=diag seed=44
-2026-07-17 00:01:41,670 | INFO | GMM dim=15 k=5 covariance=diag seed=42
-2026-07-17 00:01:41,709 | INFO | GMM dim=15 k=5 covariance=diag seed=43
-2026-07-17 00:01:41,726 | INFO | GMM dim=15 k=5 covariance=diag seed=44
-2026-07-17 00:01:41,744 | INFO | GMM dim=15 k=6 covariance=diag seed=42
-2026-07-17 00:01:41,767 | INFO | GMM dim=15 k=6 covariance=diag seed=43
-2026-07-17 00:01:41,777 | INFO | GMM dim=15 k=6 covariance=diag seed=44
-2026-07-17 00:01:41,790 | INFO | GMM dim=15 k=7 covariance=diag seed=42
-2026-07-17 00:01:41,804 | INFO | GMM dim=15 k=7 covariance=diag seed=43
-2026-07-17 00:01:41,833 | INFO | GMM dim=15 k=7 covariance=diag seed=44
-2026-07-17 00:01:41,848 | INFO | GMM dim=15 k=8 covariance=diag seed=42
-2026-07-17 00:01:41,866 | INFO | GMM dim=15 k=8 covariance=diag seed=43
-2026-07-17 00:01:41,880 | INFO | GMM dim=15 k=8 covariance=diag seed=44
-2026-07-17 00:01:41,897 | INFO | GMM dim=15 k=2 covariance=full seed=42
-2026-07-17 00:01:41,928 | INFO | GMM dim=15 k=2 covariance=full seed=43
-2026-07-17 00:01:41,953 | INFO | GMM dim=15 k=2 covariance=full seed=44
-2026-07-17 00:01:41,965 | INFO | GMM dim=15 k=3 covariance=full seed=42
-2026-07-17 00:01:42,008 | INFO | GMM dim=15 k=3 covariance=full seed=43
-2026-07-17 00:01:42,102 | INFO | GMM dim=15 k=3 covariance=full seed=44
-2026-07-17 00:01:42,197 | INFO | GMM dim=15 k=4 covariance=full seed=42
-2026-07-17 00:01:42,289 | INFO | GMM dim=15 k=4 covariance=full seed=43
-2026-07-17 00:01:42,397 | INFO | GMM dim=15 k=4 covariance=full seed=44
-2026-07-17 00:01:42,529 | INFO | GMM dim=15 k=5 covariance=full seed=42
-2026-07-17 00:01:42,604 | INFO | GMM dim=15 k=5 covariance=full seed=43
-2026-07-17 00:01:42,784 | INFO | GMM dim=15 k=5 covariance=full seed=44
-2026-07-17 00:01:42,836 | INFO | GMM dim=15 k=6 covariance=full seed=42
-2026-07-17 00:01:42,899 | INFO | GMM dim=15 k=6 covariance=full seed=43
-2026-07-17 00:01:43,038 | INFO | GMM dim=15 k=6 covariance=full seed=44
-2026-07-17 00:01:43,164 | INFO | GMM dim=15 k=7 covariance=full seed=42
-2026-07-17 00:01:43,295 | INFO | GMM dim=15 k=7 covariance=full seed=43
-2026-07-17 00:01:43,429 | INFO | GMM dim=15 k=7 covariance=full seed=44
-2026-07-17 00:01:43,546 | INFO | GMM dim=15 k=8 covariance=full seed=42
-2026-07-17 00:01:43,644 | INFO | GMM dim=15 k=8 covariance=full seed=43
-2026-07-17 00:01:43,845 | INFO | GMM dim=15 k=8 covariance=full seed=44
-2026-07-17 00:01:44,003 | INFO | GMM dim=20 k=2 covariance=diag seed=42
-2026-07-17 00:01:44,030 | INFO | GMM dim=20 k=2 covariance=diag seed=43
-2026-07-17 00:01:44,054 | INFO | GMM dim=20 k=2 covariance=diag seed=44
-2026-07-17 00:01:44,110 | INFO | GMM dim=20 k=3 covariance=diag seed=42
-2026-07-17 00:01:44,146 | INFO | GMM dim=20 k=3 covariance=diag seed=43
-2026-07-17 00:01:44,183 | INFO | GMM dim=20 k=3 covariance=diag seed=44
-2026-07-17 00:01:44,210 | INFO | GMM dim=20 k=4 covariance=diag seed=42
-2026-07-17 00:01:44,250 | INFO | GMM dim=20 k=4 covariance=diag seed=43
-2026-07-17 00:01:44,289 | INFO | GMM dim=20 k=4 covariance=diag seed=44
-2026-07-17 00:01:44,305 | INFO | GMM dim=20 k=5 covariance=diag seed=42
-2026-07-17 00:01:44,329 | INFO | GMM dim=20 k=5 covariance=diag seed=43
-2026-07-17 00:01:44,355 | INFO | GMM dim=20 k=5 covariance=diag seed=44
-2026-07-17 00:01:44,373 | INFO | GMM dim=20 k=6 covariance=diag seed=42
-2026-07-17 00:01:44,396 | INFO | GMM dim=20 k=6 covariance=diag seed=43
-2026-07-17 00:01:44,412 | INFO | GMM dim=20 k=6 covariance=diag seed=44
-2026-07-17 00:01:44,434 | INFO | GMM dim=20 k=7 covariance=diag seed=42
-2026-07-17 00:01:44,447 | INFO | GMM dim=20 k=7 covariance=diag seed=43
-2026-07-17 00:01:44,468 | INFO | GMM dim=20 k=7 covariance=diag seed=44
-2026-07-17 00:01:44,483 | INFO | GMM dim=20 k=8 covariance=diag seed=42
-2026-07-17 00:01:44,504 | INFO | GMM dim=20 k=8 covariance=diag seed=43
-2026-07-17 00:01:44,519 | INFO | GMM dim=20 k=8 covariance=diag seed=44
-2026-07-17 00:01:44,548 | INFO | GMM dim=20 k=2 covariance=full seed=42
-2026-07-17 00:01:44,570 | INFO | GMM dim=20 k=2 covariance=full seed=43
-2026-07-17 00:01:44,608 | INFO | GMM dim=20 k=2 covariance=full seed=44
-2026-07-17 00:01:44,659 | INFO | GMM dim=20 k=3 covariance=full seed=42
-2026-07-17 00:01:44,692 | INFO | GMM dim=20 k=3 covariance=full seed=43
-2026-07-17 00:01:44,775 | INFO | GMM dim=20 k=3 covariance=full seed=44
-2026-07-17 00:01:44,814 | INFO | GMM dim=20 k=4 covariance=full seed=42
-2026-07-17 00:01:44,877 | INFO | GMM dim=20 k=4 covariance=full seed=43
-2026-07-17 00:01:44,960 | INFO | GMM dim=20 k=4 covariance=full seed=44
-2026-07-17 00:01:45,047 | INFO | GMM dim=20 k=5 covariance=full seed=42
-2026-07-17 00:01:45,302 | INFO | GMM dim=20 k=5 covariance=full seed=43
-2026-07-17 00:01:45,429 | INFO | GMM dim=20 k=5 covariance=full seed=44
-2026-07-17 00:01:45,520 | INFO | GMM dim=20 k=6 covariance=full seed=42
-2026-07-17 00:01:45,653 | INFO | GMM dim=20 k=6 covariance=full seed=43
-2026-07-17 00:01:45,744 | INFO | GMM dim=20 k=6 covariance=full seed=44
-2026-07-17 00:01:45,957 | INFO | GMM dim=20 k=7 covariance=full seed=42
-2026-07-17 00:01:46,204 | INFO | GMM dim=20 k=7 covariance=full seed=43
-2026-07-17 00:01:46,349 | INFO | GMM dim=20 k=7 covariance=full seed=44
-2026-07-17 00:01:46,476 | INFO | GMM dim=20 k=8 covariance=full seed=42
-2026-07-17 00:01:46,614 | INFO | GMM dim=20 k=8 covariance=full seed=43
-2026-07-17 00:01:46,737 | INFO | GMM dim=20 k=8 covariance=full seed=44
-2026-07-17 00:01:46,837 | INFO | Hierarchical dim=5 k=2
-2026-07-17 00:01:46,914 | INFO | Hierarchical dim=5 k=3
-2026-07-17 00:01:47,009 | INFO | Hierarchical dim=5 k=4
-2026-07-17 00:01:47,091 | INFO | Hierarchical dim=5 k=5
-2026-07-17 00:01:47,140 | INFO | Hierarchical dim=5 k=6
-2026-07-17 00:01:47,182 | INFO | Hierarchical dim=5 k=7
-2026-07-17 00:01:47,227 | INFO | Hierarchical dim=5 k=8
-2026-07-17 00:01:47,273 | INFO | Hierarchical dim=10 k=2
-2026-07-17 00:01:47,320 | INFO | Hierarchical dim=10 k=3
-2026-07-17 00:01:47,368 | INFO | Hierarchical dim=10 k=4
-2026-07-17 00:01:47,415 | INFO | Hierarchical dim=10 k=5
-2026-07-17 00:01:47,470 | INFO | Hierarchical dim=10 k=6
-2026-07-17 00:01:47,520 | INFO | Hierarchical dim=10 k=7
-2026-07-17 00:01:47,568 | INFO | Hierarchical dim=10 k=8
-2026-07-17 00:01:58,873 | INFO | Co-association 1/322
-2026-07-17 00:01:58,916 | INFO | Co-association 2/322
-2026-07-17 00:01:58,950 | INFO | Co-association 3/322
-2026-07-17 00:01:58,990 | INFO | Co-association 4/322
-2026-07-17 00:01:59,030 | INFO | Co-association 5/322
-2026-07-17 00:01:59,070 | INFO | Co-association 6/322
-2026-07-17 00:01:59,092 | INFO | Co-association 7/322
-2026-07-17 00:01:59,114 | INFO | Co-association 8/322
-2026-07-17 00:01:59,153 | INFO | Co-association 9/322
-2026-07-17 00:01:59,187 | INFO | Co-association 10/322
-2026-07-17 00:01:59,221 | INFO | Co-association 11/322
-2026-07-17 00:01:59,238 | INFO | Co-association 12/322
-2026-07-17 00:01:59,256 | INFO | Co-association 13/322
-2026-07-17 00:01:59,274 | INFO | Co-association 14/322
-2026-07-17 00:01:59,291 | INFO | Co-association 15/322
-2026-07-17 00:01:59,309 | INFO | Co-association 16/322
-2026-07-17 00:01:59,322 | INFO | Co-association 17/322
-2026-07-17 00:01:59,336 | INFO | Co-association 18/322
-2026-07-17 00:01:59,349 | INFO | Co-association 19/322
-2026-07-17 00:01:59,363 | INFO | Co-association 20/322
-2026-07-17 00:01:59,376 | INFO | Co-association 21/322
-2026-07-17 00:01:59,387 | INFO | Co-association 22/322
-2026-07-17 00:01:59,398 | INFO | Co-association 23/322
-2026-07-17 00:01:59,408 | INFO | Co-association 24/322
-2026-07-17 00:01:59,419 | INFO | Co-association 25/322
-2026-07-17 00:01:59,429 | INFO | Co-association 26/322
-2026-07-17 00:01:59,438 | INFO | Co-association 27/322
-2026-07-17 00:01:59,446 | INFO | Co-association 28/322
-2026-07-17 00:01:59,454 | INFO | Co-association 29/322
-2026-07-17 00:01:59,462 | INFO | Co-association 30/322
-2026-07-17 00:01:59,470 | INFO | Co-association 31/322
-2026-07-17 00:01:59,477 | INFO | Co-association 32/322
-2026-07-17 00:01:59,484 | INFO | Co-association 33/322
-2026-07-17 00:01:59,491 | INFO | Co-association 34/322
-2026-07-17 00:01:59,498 | INFO | Co-association 35/322
-2026-07-17 00:01:59,506 | INFO | Co-association 36/322
-2026-07-17 00:01:59,528 | INFO | Co-association 37/322
-2026-07-17 00:01:59,569 | INFO | Co-association 38/322
-2026-07-17 00:01:59,609 | INFO | Co-association 39/322
-2026-07-17 00:01:59,643 | INFO | Co-association 40/322
-2026-07-17 00:01:59,677 | INFO | Co-association 41/322
-2026-07-17 00:01:59,697 | INFO | Co-association 42/322
-2026-07-17 00:01:59,719 | INFO | Co-association 43/322
-2026-07-17 00:01:59,740 | INFO | Co-association 44/322
-2026-07-17 00:01:59,775 | INFO | Co-association 45/322
-2026-07-17 00:01:59,809 | INFO | Co-association 46/322
-2026-07-17 00:01:59,827 | INFO | Co-association 47/322
-2026-07-17 00:01:59,844 | INFO | Co-association 48/322
-2026-07-17 00:01:59,862 | INFO | Co-association 49/322
-2026-07-17 00:01:59,880 | INFO | Co-association 50/322
-2026-07-17 00:01:59,897 | INFO | Co-association 51/322
-2026-07-17 00:01:59,910 | INFO | Co-association 52/322
-2026-07-17 00:01:59,922 | INFO | Co-association 53/322
-2026-07-17 00:01:59,935 | INFO | Co-association 54/322
-2026-07-17 00:01:59,948 | INFO | Co-association 55/322
-2026-07-17 00:01:59,961 | INFO | Co-association 56/322
-2026-07-17 00:01:59,974 | INFO | Co-association 57/322
-2026-07-17 00:01:59,987 | INFO | Co-association 58/322
-2026-07-17 00:02:00,000 | INFO | Co-association 59/322
-2026-07-17 00:02:00,015 | INFO | Co-association 60/322
-2026-07-17 00:02:00,028 | INFO | Co-association 61/322
-2026-07-17 00:02:00,038 | INFO | Co-association 62/322
-2026-07-17 00:02:00,048 | INFO | Co-association 63/322
-2026-07-17 00:02:00,059 | INFO | Co-association 64/322
-2026-07-17 00:02:00,069 | INFO | Co-association 65/322
-2026-07-17 00:02:00,078 | INFO | Co-association 66/322
-2026-07-17 00:02:00,089 | INFO | Co-association 67/322
-2026-07-17 00:02:00,097 | INFO | Co-association 68/322
-2026-07-17 00:02:00,106 | INFO | Co-association 69/322
-2026-07-17 00:02:00,115 | INFO | Co-association 70/322
-2026-07-17 00:02:00,125 | INFO | Co-association 71/322
-2026-07-17 00:02:00,165 | INFO | Co-association 72/322
-2026-07-17 00:02:00,207 | INFO | Co-association 73/322
-2026-07-17 00:02:00,247 | INFO | Co-association 74/322
-2026-07-17 00:02:00,281 | INFO | Co-association 75/322
-2026-07-17 00:02:00,321 | INFO | Co-association 76/322
-2026-07-17 00:02:00,341 | INFO | Co-association 77/322
-2026-07-17 00:02:00,359 | INFO | Co-association 78/322
-2026-07-17 00:02:00,380 | INFO | Co-association 79/322
-2026-07-17 00:02:00,415 | INFO | Co-association 80/322
-2026-07-17 00:02:00,436 | INFO | Co-association 81/322
-2026-07-17 00:02:00,450 | INFO | Co-association 82/322
-2026-07-17 00:02:00,468 | INFO | Co-association 83/322
-2026-07-17 00:02:00,485 | INFO | Co-association 84/322
-2026-07-17 00:02:00,503 | INFO | Co-association 85/322
-2026-07-17 00:02:00,520 | INFO | Co-association 86/322
-2026-07-17 00:02:00,532 | INFO | Co-association 87/322
-2026-07-17 00:02:00,546 | INFO | Co-association 88/322
-2026-07-17 00:02:00,564 | INFO | Co-association 89/322
-2026-07-17 00:02:00,578 | INFO | Co-association 90/322
-2026-07-17 00:02:00,592 | INFO | Co-association 91/322
-2026-07-17 00:02:00,602 | INFO | Co-association 92/322
-2026-07-17 00:02:00,617 | INFO | Co-association 93/322
-2026-07-17 00:02:00,631 | INFO | Co-association 94/322
-2026-07-17 00:02:00,644 | INFO | Co-association 95/322
-2026-07-17 00:02:00,657 | INFO | Co-association 96/322
-2026-07-17 00:02:00,668 | INFO | Co-association 97/322
-2026-07-17 00:02:00,679 | INFO | Co-association 98/322
-2026-07-17 00:02:00,690 | INFO | Co-association 99/322
-2026-07-17 00:02:00,700 | INFO | Co-association 100/322
-2026-07-17 00:02:00,709 | INFO | Co-association 101/322
-2026-07-17 00:02:00,718 | INFO | Co-association 102/322
-2026-07-17 00:02:00,727 | INFO | Co-association 103/322
-2026-07-17 00:02:00,736 | INFO | Co-association 104/322
-2026-07-17 00:02:00,744 | INFO | Co-association 105/322
-2026-07-17 00:02:00,753 | INFO | Co-association 106/322
-2026-07-17 00:02:00,774 | INFO | Co-association 107/322
-2026-07-17 00:02:00,814 | INFO | Co-association 108/322
-2026-07-17 00:02:00,855 | INFO | Co-association 109/322
-2026-07-17 00:02:00,895 | INFO | Co-association 110/322
-2026-07-17 00:02:00,929 | INFO | Co-association 111/322
-2026-07-17 00:02:00,950 | INFO | Co-association 112/322
-2026-07-17 00:02:00,970 | INFO | Co-association 113/322
-2026-07-17 00:02:00,991 | INFO | Co-association 114/322
-2026-07-17 00:02:01,011 | INFO | Co-association 115/322
-2026-07-17 00:02:01,032 | INFO | Co-association 116/322
-2026-07-17 00:02:01,047 | INFO | Co-association 117/322
-2026-07-17 00:02:01,064 | INFO | Co-association 118/322
-2026-07-17 00:02:01,083 | INFO | Co-association 119/322
-2026-07-17 00:02:01,101 | INFO | Co-association 120/322
-2026-07-17 00:02:01,119 | INFO | Co-association 121/322
-2026-07-17 00:02:01,133 | INFO | Co-association 122/322
-2026-07-17 00:02:01,150 | INFO | Co-association 123/322
-2026-07-17 00:02:01,162 | INFO | Co-association 124/322
-2026-07-17 00:02:01,180 | INFO | Co-association 125/322
-2026-07-17 00:02:01,194 | INFO | Co-association 126/322
-2026-07-17 00:02:01,206 | INFO | Co-association 127/322
-2026-07-17 00:02:01,218 | INFO | Co-association 128/322
-2026-07-17 00:02:01,232 | INFO | Co-association 129/322
-2026-07-17 00:02:01,246 | INFO | Co-association 130/322
-2026-07-17 00:02:01,260 | INFO | Co-association 131/322
-2026-07-17 00:02:01,271 | INFO | Co-association 132/322
-2026-07-17 00:02:01,285 | INFO | Co-association 133/322
-2026-07-17 00:02:01,296 | INFO | Co-association 134/322
-2026-07-17 00:02:01,307 | INFO | Co-association 135/322
-2026-07-17 00:02:01,323 | INFO | Co-association 136/322
-2026-07-17 00:02:01,333 | INFO | Co-association 137/322
-2026-07-17 00:02:01,344 | INFO | Co-association 138/322
-2026-07-17 00:02:01,354 | INFO | Co-association 139/322
-2026-07-17 00:02:01,363 | INFO | Co-association 140/322
-2026-07-17 00:02:01,375 | INFO | Co-association 141/322
-2026-07-17 00:02:01,405 | INFO | Co-association 142/322
-2026-07-17 00:02:01,440 | INFO | Co-association 143/322
-2026-07-17 00:02:01,477 | INFO | Co-association 144/322
-2026-07-17 00:02:01,509 | INFO | Co-association 145/322
-2026-07-17 00:02:01,529 | INFO | Co-association 146/322
-2026-07-17 00:02:01,561 | INFO | Co-association 147/322
-2026-07-17 00:02:01,576 | INFO | Co-association 148/322
-2026-07-17 00:02:01,592 | INFO | Co-association 149/322
-2026-07-17 00:02:01,608 | INFO | Co-association 150/322
-2026-07-17 00:02:01,619 | INFO | Co-association 151/322
-2026-07-17 00:02:01,633 | INFO | Co-association 152/322
-2026-07-17 00:02:01,647 | INFO | Co-association 153/322
-2026-07-17 00:02:01,658 | INFO | Co-association 154/322
-2026-07-17 00:02:01,668 | INFO | Co-association 155/322
-2026-07-17 00:02:01,679 | INFO | Co-association 156/322
-2026-07-17 00:02:01,690 | INFO | Co-association 157/322
-2026-07-17 00:02:01,699 | INFO | Co-association 158/322
-2026-07-17 00:02:01,711 | INFO | Co-association 159/322
-2026-07-17 00:02:01,720 | INFO | Co-association 160/322
-2026-07-17 00:02:01,728 | INFO | Co-association 161/322
-2026-07-17 00:02:01,737 | INFO | Co-association 162/322
-2026-07-17 00:02:01,769 | INFO | Co-association 163/322
-2026-07-17 00:02:01,806 | INFO | Co-association 164/322
-2026-07-17 00:02:01,843 | INFO | Co-association 165/322
-2026-07-17 00:02:01,874 | INFO | Co-association 166/322
-2026-07-17 00:02:01,906 | INFO | Co-association 167/322
-2026-07-17 00:02:01,939 | INFO | Co-association 168/322
-2026-07-17 00:02:01,956 | INFO | Co-association 169/322
-2026-07-17 00:02:01,987 | INFO | Co-association 170/322
-2026-07-17 00:02:02,017 | INFO | Co-association 171/322
-2026-07-17 00:02:02,029 | INFO | Co-association 172/322
-2026-07-17 00:02:02,045 | INFO | Co-association 173/322
-2026-07-17 00:02:02,061 | INFO | Co-association 174/322
-2026-07-17 00:02:02,076 | INFO | Co-association 175/322
-2026-07-17 00:02:02,092 | INFO | Co-association 176/322
-2026-07-17 00:02:02,107 | INFO | Co-association 177/322
-2026-07-17 00:02:02,118 | INFO | Co-association 178/322
-2026-07-17 00:02:02,129 | INFO | Co-association 179/322
-2026-07-17 00:02:02,141 | INFO | Co-association 180/322
-2026-07-17 00:02:02,150 | INFO | Co-association 181/322
-2026-07-17 00:02:02,159 | INFO | Co-association 182/322
-2026-07-17 00:02:02,168 | INFO | Co-association 183/322
-2026-07-17 00:02:02,202 | INFO | Co-association 184/322
-2026-07-17 00:02:02,236 | INFO | Co-association 185/322
-2026-07-17 00:02:02,270 | INFO | Co-association 186/322
-2026-07-17 00:02:02,291 | INFO | Co-association 187/322
-2026-07-17 00:02:02,312 | INFO | Co-association 188/322
-2026-07-17 00:02:02,334 | INFO | Co-association 189/322
-2026-07-17 00:02:02,349 | INFO | Co-association 190/322
-2026-07-17 00:02:02,363 | INFO | Co-association 191/322
-2026-07-17 00:02:02,383 | INFO | Co-association 192/322
-2026-07-17 00:02:02,398 | INFO | Co-association 193/322
-2026-07-17 00:02:02,414 | INFO | Co-association 194/322
-2026-07-17 00:02:02,429 | INFO | Co-association 195/322
-2026-07-17 00:02:02,440 | INFO | Co-association 196/322
-2026-07-17 00:02:02,451 | INFO | Co-association 197/322
-2026-07-17 00:02:02,461 | INFO | Co-association 198/322
-2026-07-17 00:02:02,470 | INFO | Co-association 199/322
-2026-07-17 00:02:02,478 | INFO | Co-association 200/322
-2026-07-17 00:02:02,487 | INFO | Co-association 201/322
-2026-07-17 00:02:02,494 | INFO | Co-association 202/322
-2026-07-17 00:02:02,502 | INFO | Co-association 203/322
-2026-07-17 00:02:02,510 | INFO | Co-association 204/322
-2026-07-17 00:02:02,538 | INFO | Co-association 205/322
-2026-07-17 00:02:02,571 | INFO | Co-association 206/322
-2026-07-17 00:02:02,605 | INFO | Co-association 207/322
-2026-07-17 00:02:02,634 | INFO | Co-association 208/322
-2026-07-17 00:02:02,665 | INFO | Co-association 209/322
-2026-07-17 00:02:02,693 | INFO | Co-association 210/322
-2026-07-17 00:02:02,717 | INFO | Co-association 211/322
-2026-07-17 00:02:02,737 | INFO | Co-association 212/322
-2026-07-17 00:02:02,764 | INFO | Co-association 213/322
-2026-07-17 00:02:02,780 | INFO | Co-association 214/322
-2026-07-17 00:02:02,796 | INFO | Co-association 215/322
-2026-07-17 00:02:02,812 | INFO | Co-association 216/322
-2026-07-17 00:02:02,826 | INFO | Co-association 217/322
-2026-07-17 00:02:02,838 | INFO | Co-association 218/322
-2026-07-17 00:02:02,851 | INFO | Co-association 219/322
-2026-07-17 00:02:02,862 | INFO | Co-association 220/322
-2026-07-17 00:02:02,873 | INFO | Co-association 221/322
-2026-07-17 00:02:02,885 | INFO | Co-association 222/322
-2026-07-17 00:02:02,896 | INFO | Co-association 223/322
-2026-07-17 00:02:02,904 | INFO | Co-association 224/322
-2026-07-17 00:02:02,915 | INFO | Co-association 225/322
-2026-07-17 00:02:02,948 | INFO | Co-association 226/322
-2026-07-17 00:02:02,981 | INFO | Co-association 227/322
-2026-07-17 00:02:03,016 | INFO | Co-association 228/322
-2026-07-17 00:02:03,042 | INFO | Co-association 229/322
-2026-07-17 00:02:03,061 | INFO | Co-association 230/322
-2026-07-17 00:02:03,080 | INFO | Co-association 231/322
-2026-07-17 00:02:03,097 | INFO | Co-association 232/322
-2026-07-17 00:02:03,113 | INFO | Co-association 233/322
-2026-07-17 00:02:03,129 | INFO | Co-association 234/322
-2026-07-17 00:02:03,144 | INFO | Co-association 235/322
-2026-07-17 00:02:03,159 | INFO | Co-association 236/322
-2026-07-17 00:02:03,172 | INFO | Co-association 237/322
-2026-07-17 00:02:03,186 | INFO | Co-association 238/322
-2026-07-17 00:02:03,197 | INFO | Co-association 239/322
-2026-07-17 00:02:03,208 | INFO | Co-association 240/322
-2026-07-17 00:02:03,218 | INFO | Co-association 241/322
-2026-07-17 00:02:03,228 | INFO | Co-association 242/322
-2026-07-17 00:02:03,238 | INFO | Co-association 243/322
-2026-07-17 00:02:03,247 | INFO | Co-association 244/322
-2026-07-17 00:02:03,258 | INFO | Co-association 245/322
-2026-07-17 00:02:03,267 | INFO | Co-association 246/322
-2026-07-17 00:02:03,291 | INFO | Co-association 247/322
-2026-07-17 00:02:03,315 | INFO | Co-association 248/322
-2026-07-17 00:02:03,349 | INFO | Co-association 249/322
-2026-07-17 00:02:03,369 | INFO | Co-association 250/322
-2026-07-17 00:02:03,384 | INFO | Co-association 251/322
-2026-07-17 00:02:03,400 | INFO | Co-association 252/322
-2026-07-17 00:02:03,416 | INFO | Co-association 253/322
-2026-07-17 00:02:03,430 | INFO | Co-association 254/322
-2026-07-17 00:02:03,445 | INFO | Co-association 255/322
-2026-07-17 00:02:03,461 | INFO | Co-association 256/322
-2026-07-17 00:02:03,473 | INFO | Co-association 257/322
-2026-07-17 00:02:03,485 | INFO | Co-association 258/322
-2026-07-17 00:02:03,500 | INFO | Co-association 259/322
-2026-07-17 00:02:03,512 | INFO | Co-association 260/322
-2026-07-17 00:02:03,522 | INFO | Co-association 261/322
-2026-07-17 00:02:03,531 | INFO | Co-association 262/322
-2026-07-17 00:02:03,541 | INFO | Co-association 263/322
-2026-07-17 00:02:03,550 | INFO | Co-association 264/322
-2026-07-17 00:02:03,559 | INFO | Co-association 265/322
-2026-07-17 00:02:03,569 | INFO | Co-association 266/322
-2026-07-17 00:02:03,578 | INFO | Co-association 267/322
-2026-07-17 00:02:03,612 | INFO | Co-association 268/322
-2026-07-17 00:02:03,645 | INFO | Co-association 269/322
-2026-07-17 00:02:03,678 | INFO | Co-association 270/322
-2026-07-17 00:02:03,698 | INFO | Co-association 271/322
-2026-07-17 00:02:03,723 | INFO | Co-association 272/322
-2026-07-17 00:02:03,743 | INFO | Co-association 273/322
-2026-07-17 00:02:03,755 | INFO | Co-association 274/322
-2026-07-17 00:02:03,769 | INFO | Co-association 275/322
-2026-07-17 00:02:03,787 | INFO | Co-association 276/322
-2026-07-17 00:02:03,798 | INFO | Co-association 277/322
-2026-07-17 00:02:03,809 | INFO | Co-association 278/322
-2026-07-17 00:02:03,822 | INFO | Co-association 279/322
-2026-07-17 00:02:03,836 | INFO | Co-association 280/322
-2026-07-17 00:02:03,848 | INFO | Co-association 281/322
-2026-07-17 00:02:03,863 | INFO | Co-association 282/322
-2026-07-17 00:02:03,875 | INFO | Co-association 283/322
-2026-07-17 00:02:03,887 | INFO | Co-association 284/322
-2026-07-17 00:02:03,897 | INFO | Co-association 285/322
-2026-07-17 00:02:03,906 | INFO | Co-association 286/322
-2026-07-17 00:02:03,916 | INFO | Co-association 287/322
-2026-07-17 00:02:03,927 | INFO | Co-association 288/322
-2026-07-17 00:02:03,954 | INFO | Co-association 289/322
-2026-07-17 00:02:03,978 | INFO | Co-association 290/322
-2026-07-17 00:02:04,000 | INFO | Co-association 291/322
-2026-07-17 00:02:04,022 | INFO | Co-association 292/322
-2026-07-17 00:02:04,040 | INFO | Co-association 293/322
-2026-07-17 00:02:04,062 | INFO | Co-association 294/322
-2026-07-17 00:02:04,082 | INFO | Co-association 295/322
-2026-07-17 00:02:04,099 | INFO | Co-association 296/322
-2026-07-17 00:02:04,115 | INFO | Co-association 297/322
-2026-07-17 00:02:04,131 | INFO | Co-association 298/322
-2026-07-17 00:02:04,144 | INFO | Co-association 299/322
-2026-07-17 00:02:04,155 | INFO | Co-association 300/322
-2026-07-17 00:02:04,165 | INFO | Co-association 301/322
-2026-07-17 00:02:04,180 | INFO | Co-association 302/322
-2026-07-17 00:02:04,190 | INFO | Co-association 303/322
-2026-07-17 00:02:04,200 | INFO | Co-association 304/322
-2026-07-17 00:02:04,211 | INFO | Co-association 305/322
-2026-07-17 00:02:04,220 | INFO | Co-association 306/322
-2026-07-17 00:02:04,228 | INFO | Co-association 307/322
-2026-07-17 00:02:04,237 | INFO | Co-association 308/322
-2026-07-17 00:02:04,248 | INFO | Co-association 309/322
-2026-07-17 00:02:04,291 | INFO | Co-association 310/322
-2026-07-17 00:02:04,326 | INFO | Co-association 311/322
-2026-07-17 00:02:04,345 | INFO | Co-association 312/322
-2026-07-17 00:02:04,358 | INFO | Co-association 313/322
-2026-07-17 00:02:04,368 | INFO | Co-association 314/322
-2026-07-17 00:02:04,377 | INFO | Co-association 315/322
-2026-07-17 00:02:04,386 | INFO | Co-association 316/322
-2026-07-17 00:02:04,426 | INFO | Co-association 317/322
-2026-07-17 00:02:04,460 | INFO | Co-association 318/322
-2026-07-17 00:02:04,479 | INFO | Co-association 319/322
-2026-07-17 00:02:04,497 | INFO | Co-association 320/322
-2026-07-17 00:02:04,511 | INFO | Co-association 321/322
-2026-07-17 00:02:04,521 | INFO | Co-association 322/322
-2026-07-17 00:02:08,345 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/coassociation_heatmap.png
-2026-07-17 00:02:08,742 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/consensus_k_selection.png
-2026-07-17 00:02:08,967 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/consensus_pca_projection.png
-2026-07-17 00:02:09,843 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/cluster_profile_heatmap.png
-2026-07-17 00:02:09,857 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-2026-07-17 00:02:09,859 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-2026-07-17 00:02:09,867 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-2026-07-17 00:02:09,869 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
-2026-07-17 00:02:10,032 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/fraud_composition_by_cluster.png
-2026-07-17 00:02:10,318 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/cluster_rule_tree.png
-2026-07-17 00:02:10,645 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/cluster_anomaly_scores.png
-2026-07-17 00:02:11,195 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/preprocessing_sensitivity_heatmap.png
-2026-07-17 00:02:11,197 | INFO | Phase 3 completed in 0.71 minutes
+2026-07-17 22:35:06,841 | INFO | ======================================================================
+2026-07-17 22:35:06,841 | INFO | Phase 3 started
+2026-07-17 22:35:06,841 | INFO | ======================================================================
+2026-07-17 22:35:07,535 | INFO | KMeans dim=5 k=2 seed=42
+2026-07-17 22:35:07,719 | INFO | KMeans dim=5 k=2 seed=43
+2026-07-17 22:35:07,834 | INFO | KMeans dim=5 k=2 seed=44
+2026-07-17 22:35:07,889 | INFO | KMeans dim=5 k=2 seed=45
+2026-07-17 22:35:07,922 | INFO | KMeans dim=5 k=2 seed=46
+2026-07-17 22:35:07,950 | INFO | KMeans dim=5 k=3 seed=42
+2026-07-17 22:35:07,975 | INFO | KMeans dim=5 k=3 seed=43
+2026-07-17 22:35:08,007 | INFO | KMeans dim=5 k=3 seed=44
+2026-07-17 22:35:08,041 | INFO | KMeans dim=5 k=3 seed=45
+2026-07-17 22:35:08,074 | INFO | KMeans dim=5 k=3 seed=46
+2026-07-17 22:35:08,112 | INFO | KMeans dim=5 k=4 seed=42
+2026-07-17 22:35:08,149 | INFO | KMeans dim=5 k=4 seed=43
+2026-07-17 22:35:08,192 | INFO | KMeans dim=5 k=4 seed=44
+2026-07-17 22:35:08,237 | INFO | KMeans dim=5 k=4 seed=45
+2026-07-17 22:35:08,297 | INFO | KMeans dim=5 k=4 seed=46
+2026-07-17 22:35:08,379 | INFO | KMeans dim=5 k=5 seed=42
+2026-07-17 22:35:08,475 | INFO | KMeans dim=5 k=5 seed=43
+2026-07-17 22:35:08,574 | INFO | KMeans dim=5 k=5 seed=44
+2026-07-17 22:35:08,659 | INFO | KMeans dim=5 k=5 seed=45
+2026-07-17 22:35:08,728 | INFO | KMeans dim=5 k=5 seed=46
+2026-07-17 22:35:08,783 | INFO | KMeans dim=5 k=6 seed=42
+2026-07-17 22:35:08,877 | INFO | KMeans dim=5 k=6 seed=43
+2026-07-17 22:35:08,966 | INFO | KMeans dim=5 k=6 seed=44
+2026-07-17 22:35:09,053 | INFO | KMeans dim=5 k=6 seed=45
+2026-07-17 22:35:09,134 | INFO | KMeans dim=5 k=6 seed=46
+2026-07-17 22:35:09,215 | INFO | KMeans dim=5 k=7 seed=42
+2026-07-17 22:35:09,312 | INFO | KMeans dim=5 k=7 seed=43
+2026-07-17 22:35:09,406 | INFO | KMeans dim=5 k=7 seed=44
+2026-07-17 22:35:09,502 | INFO | KMeans dim=5 k=7 seed=45
+2026-07-17 22:35:09,589 | INFO | KMeans dim=5 k=7 seed=46
+2026-07-17 22:35:09,681 | INFO | KMeans dim=5 k=8 seed=42
+2026-07-17 22:35:09,760 | INFO | KMeans dim=5 k=8 seed=43
+2026-07-17 22:35:09,858 | INFO | KMeans dim=5 k=8 seed=44
+2026-07-17 22:35:09,971 | INFO | KMeans dim=5 k=8 seed=45
+2026-07-17 22:35:10,053 | INFO | KMeans dim=5 k=8 seed=46
+2026-07-17 22:35:10,161 | INFO | KMeans dim=10 k=2 seed=42
+2026-07-17 22:35:10,215 | INFO | KMeans dim=10 k=2 seed=43
+2026-07-17 22:35:10,276 | INFO | KMeans dim=10 k=2 seed=44
+2026-07-17 22:35:10,314 | INFO | KMeans dim=10 k=2 seed=45
+2026-07-17 22:35:10,373 | INFO | KMeans dim=10 k=2 seed=46
+2026-07-17 22:35:10,418 | INFO | KMeans dim=10 k=3 seed=42
+2026-07-17 22:35:10,488 | INFO | KMeans dim=10 k=3 seed=43
+2026-07-17 22:35:10,553 | INFO | KMeans dim=10 k=3 seed=44
+2026-07-17 22:35:10,614 | INFO | KMeans dim=10 k=3 seed=45
+2026-07-17 22:35:10,679 | INFO | KMeans dim=10 k=3 seed=46
+2026-07-17 22:35:10,743 | INFO | KMeans dim=10 k=4 seed=42
+2026-07-17 22:35:10,811 | INFO | KMeans dim=10 k=4 seed=43
+2026-07-17 22:35:10,881 | INFO | KMeans dim=10 k=4 seed=44
+2026-07-17 22:35:10,951 | INFO | KMeans dim=10 k=4 seed=45
+2026-07-17 22:35:11,016 | INFO | KMeans dim=10 k=4 seed=46
+2026-07-17 22:35:11,091 | INFO | KMeans dim=10 k=5 seed=42
+2026-07-17 22:35:11,167 | INFO | KMeans dim=10 k=5 seed=43
+2026-07-17 22:35:11,261 | INFO | KMeans dim=10 k=5 seed=44
+2026-07-17 22:35:11,344 | INFO | KMeans dim=10 k=5 seed=45
+2026-07-17 22:35:11,423 | INFO | KMeans dim=10 k=5 seed=46
+2026-07-17 22:35:11,494 | INFO | KMeans dim=10 k=6 seed=42
+2026-07-17 22:35:11,573 | INFO | KMeans dim=10 k=6 seed=43
+2026-07-17 22:35:11,673 | INFO | KMeans dim=10 k=6 seed=44
+2026-07-17 22:35:11,748 | INFO | KMeans dim=10 k=6 seed=45
+2026-07-17 22:35:11,827 | INFO | KMeans dim=10 k=6 seed=46
+2026-07-17 22:35:11,912 | INFO | KMeans dim=10 k=7 seed=42
+2026-07-17 22:35:12,005 | INFO | KMeans dim=10 k=7 seed=43
+2026-07-17 22:35:12,114 | INFO | KMeans dim=10 k=7 seed=44
+2026-07-17 22:35:12,215 | INFO | KMeans dim=10 k=7 seed=45
+2026-07-17 22:35:12,316 | INFO | KMeans dim=10 k=7 seed=46
+2026-07-17 22:35:12,423 | INFO | KMeans dim=10 k=8 seed=42
+2026-07-17 22:35:12,551 | INFO | KMeans dim=10 k=8 seed=43
+2026-07-17 22:35:12,659 | INFO | KMeans dim=10 k=8 seed=44
+2026-07-17 22:35:12,769 | INFO | KMeans dim=10 k=8 seed=45
+2026-07-17 22:35:12,878 | INFO | KMeans dim=10 k=8 seed=46
+2026-07-17 22:35:12,996 | INFO | KMeans dim=15 k=2 seed=42
+2026-07-17 22:35:13,046 | INFO | KMeans dim=15 k=2 seed=43
+2026-07-17 22:35:13,101 | INFO | KMeans dim=15 k=2 seed=44
+2026-07-17 22:35:13,143 | INFO | KMeans dim=15 k=2 seed=45
+2026-07-17 22:35:13,201 | INFO | KMeans dim=15 k=2 seed=46
+2026-07-17 22:35:13,246 | INFO | KMeans dim=15 k=3 seed=42
+2026-07-17 22:35:13,307 | INFO | KMeans dim=15 k=3 seed=43
+2026-07-17 22:35:13,378 | INFO | KMeans dim=15 k=3 seed=44
+2026-07-17 22:35:13,441 | INFO | KMeans dim=15 k=3 seed=45
+2026-07-17 22:35:13,519 | INFO | KMeans dim=15 k=3 seed=46
+2026-07-17 22:35:13,601 | INFO | KMeans dim=15 k=4 seed=42
+2026-07-17 22:35:13,695 | INFO | KMeans dim=15 k=4 seed=43
+2026-07-17 22:35:13,766 | INFO | KMeans dim=15 k=4 seed=44
+2026-07-17 22:35:13,845 | INFO | KMeans dim=15 k=4 seed=45
+2026-07-17 22:35:13,921 | INFO | KMeans dim=15 k=4 seed=46
+2026-07-17 22:35:14,008 | INFO | KMeans dim=15 k=5 seed=42
+2026-07-17 22:35:14,106 | INFO | KMeans dim=15 k=5 seed=43
+2026-07-17 22:35:14,197 | INFO | KMeans dim=15 k=5 seed=44
+2026-07-17 22:35:14,284 | INFO | KMeans dim=15 k=5 seed=45
+2026-07-17 22:35:14,361 | INFO | KMeans dim=15 k=5 seed=46
+2026-07-17 22:35:14,453 | INFO | KMeans dim=15 k=6 seed=42
+2026-07-17 22:35:14,541 | INFO | KMeans dim=15 k=6 seed=43
+2026-07-17 22:35:14,621 | INFO | KMeans dim=15 k=6 seed=44
+2026-07-17 22:35:14,712 | INFO | KMeans dim=15 k=6 seed=45
+2026-07-17 22:35:14,838 | INFO | KMeans dim=15 k=6 seed=46
+2026-07-17 22:35:14,934 | INFO | KMeans dim=15 k=7 seed=42
+2026-07-17 22:35:15,043 | INFO | KMeans dim=15 k=7 seed=43
+2026-07-17 22:35:15,153 | INFO | KMeans dim=15 k=7 seed=44
+2026-07-17 22:35:15,258 | INFO | KMeans dim=15 k=7 seed=45
+2026-07-17 22:35:15,360 | INFO | KMeans dim=15 k=7 seed=46
+2026-07-17 22:35:15,473 | INFO | KMeans dim=15 k=8 seed=42
+2026-07-17 22:35:15,581 | INFO | KMeans dim=15 k=8 seed=43
+2026-07-17 22:35:15,680 | INFO | KMeans dim=15 k=8 seed=44
+2026-07-17 22:35:15,793 | INFO | KMeans dim=15 k=8 seed=45
+2026-07-17 22:35:15,932 | INFO | KMeans dim=15 k=8 seed=46
+2026-07-17 22:35:16,032 | INFO | KMeans dim=20 k=2 seed=42
+2026-07-17 22:35:16,102 | INFO | KMeans dim=20 k=2 seed=43
+2026-07-17 22:35:16,160 | INFO | KMeans dim=20 k=2 seed=44
+2026-07-17 22:35:16,220 | INFO | KMeans dim=20 k=2 seed=45
+2026-07-17 22:35:16,271 | INFO | KMeans dim=20 k=2 seed=46
+2026-07-17 22:35:16,337 | INFO | KMeans dim=20 k=3 seed=42
+2026-07-17 22:35:16,413 | INFO | KMeans dim=20 k=3 seed=43
+2026-07-17 22:35:16,480 | INFO | KMeans dim=20 k=3 seed=44
+2026-07-17 22:35:16,560 | INFO | KMeans dim=20 k=3 seed=45
+2026-07-17 22:35:16,608 | INFO | KMeans dim=20 k=3 seed=46
+2026-07-17 22:35:16,680 | INFO | KMeans dim=20 k=4 seed=42
+2026-07-17 22:35:16,763 | INFO | KMeans dim=20 k=4 seed=43
+2026-07-17 22:35:16,833 | INFO | KMeans dim=20 k=4 seed=44
+2026-07-17 22:35:16,923 | INFO | KMeans dim=20 k=4 seed=45
+2026-07-17 22:35:17,003 | INFO | KMeans dim=20 k=4 seed=46
+2026-07-17 22:35:17,089 | INFO | KMeans dim=20 k=5 seed=42
+2026-07-17 22:35:17,187 | INFO | KMeans dim=20 k=5 seed=43
+2026-07-17 22:35:17,278 | INFO | KMeans dim=20 k=5 seed=44
+2026-07-17 22:35:17,396 | INFO | KMeans dim=20 k=5 seed=45
+2026-07-17 22:35:17,480 | INFO | KMeans dim=20 k=5 seed=46
+2026-07-17 22:35:17,571 | INFO | KMeans dim=20 k=6 seed=42
+2026-07-17 22:35:17,646 | INFO | KMeans dim=20 k=6 seed=43
+2026-07-17 22:35:17,735 | INFO | KMeans dim=20 k=6 seed=44
+2026-07-17 22:35:17,839 | INFO | KMeans dim=20 k=6 seed=45
+2026-07-17 22:35:17,925 | INFO | KMeans dim=20 k=6 seed=46
+2026-07-17 22:35:18,022 | INFO | KMeans dim=20 k=7 seed=42
+2026-07-17 22:35:18,119 | INFO | KMeans dim=20 k=7 seed=43
+2026-07-17 22:35:18,231 | INFO | KMeans dim=20 k=7 seed=44
+2026-07-17 22:35:18,322 | INFO | KMeans dim=20 k=7 seed=45
+2026-07-17 22:35:18,411 | INFO | KMeans dim=20 k=7 seed=46
+2026-07-17 22:35:18,509 | INFO | KMeans dim=20 k=8 seed=42
+2026-07-17 22:35:18,624 | INFO | KMeans dim=20 k=8 seed=43
+2026-07-17 22:35:18,714 | INFO | KMeans dim=20 k=8 seed=44
+2026-07-17 22:35:18,814 | INFO | KMeans dim=20 k=8 seed=45
+2026-07-17 22:35:18,928 | INFO | KMeans dim=20 k=8 seed=46
+2026-07-17 22:35:19,028 | INFO | GMM dim=5 k=2 covariance=diag seed=42
+2026-07-17 22:35:19,043 | INFO | GMM dim=5 k=2 covariance=diag seed=43
+2026-07-17 22:35:19,057 | INFO | GMM dim=5 k=2 covariance=diag seed=44
+2026-07-17 22:35:19,076 | INFO | GMM dim=5 k=3 covariance=diag seed=42
+2026-07-17 22:35:19,093 | INFO | GMM dim=5 k=3 covariance=diag seed=43
+2026-07-17 22:35:19,113 | INFO | GMM dim=5 k=3 covariance=diag seed=44
+2026-07-17 22:35:19,129 | INFO | GMM dim=5 k=4 covariance=diag seed=42
+2026-07-17 22:35:19,148 | INFO | GMM dim=5 k=4 covariance=diag seed=43
+2026-07-17 22:35:19,168 | INFO | GMM dim=5 k=4 covariance=diag seed=44
+2026-07-17 22:35:19,186 | INFO | GMM dim=5 k=5 covariance=diag seed=42
+2026-07-17 22:35:19,208 | INFO | GMM dim=5 k=5 covariance=diag seed=43
+2026-07-17 22:35:19,224 | INFO | GMM dim=5 k=5 covariance=diag seed=44
+2026-07-17 22:35:19,243 | INFO | GMM dim=5 k=6 covariance=diag seed=42
+2026-07-17 22:35:19,272 | INFO | GMM dim=5 k=6 covariance=diag seed=43
+2026-07-17 22:35:19,314 | INFO | GMM dim=5 k=6 covariance=diag seed=44
+2026-07-17 22:35:19,361 | INFO | GMM dim=5 k=7 covariance=diag seed=42
+2026-07-17 22:35:19,399 | INFO | GMM dim=5 k=7 covariance=diag seed=43
+2026-07-17 22:35:19,430 | INFO | GMM dim=5 k=7 covariance=diag seed=44
+2026-07-17 22:35:19,477 | INFO | GMM dim=5 k=8 covariance=diag seed=42
+2026-07-17 22:35:19,505 | INFO | GMM dim=5 k=8 covariance=diag seed=43
+2026-07-17 22:35:19,533 | INFO | GMM dim=5 k=8 covariance=diag seed=44
+2026-07-17 22:35:19,561 | INFO | GMM dim=5 k=2 covariance=full seed=42
+2026-07-17 22:35:19,582 | INFO | GMM dim=5 k=2 covariance=full seed=43
+2026-07-17 22:35:19,671 | INFO | GMM dim=5 k=2 covariance=full seed=44
+2026-07-17 22:35:19,721 | INFO | GMM dim=5 k=3 covariance=full seed=42
+2026-07-17 22:35:19,760 | INFO | GMM dim=5 k=3 covariance=full seed=43
+2026-07-17 22:35:19,821 | INFO | GMM dim=5 k=3 covariance=full seed=44
+2026-07-17 22:35:19,849 | INFO | GMM dim=5 k=4 covariance=full seed=42
+2026-07-17 22:35:19,883 | INFO | GMM dim=5 k=4 covariance=full seed=43
+2026-07-17 22:35:19,950 | INFO | GMM dim=5 k=4 covariance=full seed=44
+2026-07-17 22:35:20,013 | INFO | GMM dim=5 k=5 covariance=full seed=42
+2026-07-17 22:35:20,116 | INFO | GMM dim=5 k=5 covariance=full seed=43
+2026-07-17 22:35:20,153 | INFO | GMM dim=5 k=5 covariance=full seed=44
+2026-07-17 22:35:20,189 | INFO | GMM dim=5 k=6 covariance=full seed=42
+2026-07-17 22:35:20,274 | INFO | GMM dim=5 k=6 covariance=full seed=43
+2026-07-17 22:35:20,351 | INFO | GMM dim=5 k=6 covariance=full seed=44
+2026-07-17 22:35:20,433 | INFO | GMM dim=5 k=7 covariance=full seed=42
+2026-07-17 22:35:20,604 | INFO | GMM dim=5 k=7 covariance=full seed=43
+2026-07-17 22:35:20,808 | INFO | GMM dim=5 k=7 covariance=full seed=44
+2026-07-17 22:35:20,892 | INFO | GMM dim=5 k=8 covariance=full seed=42
+2026-07-17 22:35:21,037 | INFO | GMM dim=5 k=8 covariance=full seed=43
+2026-07-17 22:35:21,121 | INFO | GMM dim=5 k=8 covariance=full seed=44
+2026-07-17 22:35:21,262 | INFO | GMM dim=10 k=2 covariance=diag seed=42
+2026-07-17 22:35:21,282 | INFO | GMM dim=10 k=2 covariance=diag seed=43
+2026-07-17 22:35:21,300 | INFO | GMM dim=10 k=2 covariance=diag seed=44
+2026-07-17 22:35:21,310 | INFO | GMM dim=10 k=3 covariance=diag seed=42
+2026-07-17 22:35:21,330 | INFO | GMM dim=10 k=3 covariance=diag seed=43
+2026-07-17 22:35:21,363 | INFO | GMM dim=10 k=3 covariance=diag seed=44
+2026-07-17 22:35:21,394 | INFO | GMM dim=10 k=4 covariance=diag seed=42
+2026-07-17 22:35:21,436 | INFO | GMM dim=10 k=4 covariance=diag seed=43
+2026-07-17 22:35:21,464 | INFO | GMM dim=10 k=4 covariance=diag seed=44
+2026-07-17 22:35:21,486 | INFO | GMM dim=10 k=5 covariance=diag seed=42
+2026-07-17 22:35:21,506 | INFO | GMM dim=10 k=5 covariance=diag seed=43
+2026-07-17 22:35:21,536 | INFO | GMM dim=10 k=5 covariance=diag seed=44
+2026-07-17 22:35:21,557 | INFO | GMM dim=10 k=6 covariance=diag seed=42
+2026-07-17 22:35:21,585 | INFO | GMM dim=10 k=6 covariance=diag seed=43
+2026-07-17 22:35:21,638 | INFO | GMM dim=10 k=6 covariance=diag seed=44
+2026-07-17 22:35:21,672 | INFO | GMM dim=10 k=7 covariance=diag seed=42
+2026-07-17 22:35:21,729 | INFO | GMM dim=10 k=7 covariance=diag seed=43
+2026-07-17 22:35:21,780 | INFO | GMM dim=10 k=7 covariance=diag seed=44
+2026-07-17 22:35:21,822 | INFO | GMM dim=10 k=8 covariance=diag seed=42
+2026-07-17 22:35:21,876 | INFO | GMM dim=10 k=8 covariance=diag seed=43
+2026-07-17 22:35:21,921 | INFO | GMM dim=10 k=8 covariance=diag seed=44
+2026-07-17 22:35:21,974 | INFO | GMM dim=10 k=2 covariance=full seed=42
+2026-07-17 22:35:21,998 | INFO | GMM dim=10 k=2 covariance=full seed=43
+2026-07-17 22:35:22,275 | INFO | GMM dim=10 k=2 covariance=full seed=44
+2026-07-17 22:35:22,427 | INFO | GMM dim=10 k=3 covariance=full seed=42
+2026-07-17 22:35:22,605 | INFO | GMM dim=10 k=3 covariance=full seed=43
+2026-07-17 22:35:22,836 | INFO | GMM dim=10 k=3 covariance=full seed=44
+2026-07-17 22:35:23,120 | INFO | GMM dim=10 k=4 covariance=full seed=42
+2026-07-17 22:35:23,379 | INFO | GMM dim=10 k=4 covariance=full seed=43
+2026-07-17 22:35:23,495 | INFO | GMM dim=10 k=4 covariance=full seed=44
+2026-07-17 22:35:23,651 | INFO | GMM dim=10 k=5 covariance=full seed=42
+2026-07-17 22:35:23,963 | INFO | GMM dim=10 k=5 covariance=full seed=43
+2026-07-17 22:35:24,279 | INFO | GMM dim=10 k=5 covariance=full seed=44
+2026-07-17 22:35:24,458 | INFO | GMM dim=10 k=6 covariance=full seed=42
+2026-07-17 22:35:24,715 | INFO | GMM dim=10 k=6 covariance=full seed=43
+2026-07-17 22:35:25,057 | INFO | GMM dim=10 k=6 covariance=full seed=44
+2026-07-17 22:35:25,295 | INFO | GMM dim=10 k=7 covariance=full seed=42
+2026-07-17 22:35:25,710 | INFO | GMM dim=10 k=7 covariance=full seed=43
+2026-07-17 22:35:25,933 | INFO | GMM dim=10 k=7 covariance=full seed=44
+2026-07-17 22:35:26,319 | INFO | GMM dim=10 k=8 covariance=full seed=42
+2026-07-17 22:35:26,692 | INFO | GMM dim=10 k=8 covariance=full seed=43
+2026-07-17 22:35:27,070 | INFO | GMM dim=10 k=8 covariance=full seed=44
+2026-07-17 22:35:27,220 | INFO | GMM dim=15 k=2 covariance=diag seed=42
+2026-07-17 22:35:27,251 | INFO | GMM dim=15 k=2 covariance=diag seed=43
+2026-07-17 22:35:27,303 | INFO | GMM dim=15 k=2 covariance=diag seed=44
+2026-07-17 22:35:27,317 | INFO | GMM dim=15 k=3 covariance=diag seed=42
+2026-07-17 22:35:27,494 | INFO | GMM dim=15 k=3 covariance=diag seed=43
+2026-07-17 22:35:27,510 | INFO | GMM dim=15 k=3 covariance=diag seed=44
+2026-07-17 22:35:27,527 | INFO | GMM dim=15 k=4 covariance=diag seed=42
+2026-07-17 22:35:27,562 | INFO | GMM dim=15 k=4 covariance=diag seed=43
+2026-07-17 22:35:27,592 | INFO | GMM dim=15 k=4 covariance=diag seed=44
+2026-07-17 22:35:27,630 | INFO | GMM dim=15 k=5 covariance=diag seed=42
+2026-07-17 22:35:27,678 | INFO | GMM dim=15 k=5 covariance=diag seed=43
+2026-07-17 22:35:27,702 | INFO | GMM dim=15 k=5 covariance=diag seed=44
+2026-07-17 22:35:27,726 | INFO | GMM dim=15 k=6 covariance=diag seed=42
+2026-07-17 22:35:27,758 | INFO | GMM dim=15 k=6 covariance=diag seed=43
+2026-07-17 22:35:27,772 | INFO | GMM dim=15 k=6 covariance=diag seed=44
+2026-07-17 22:35:27,789 | INFO | GMM dim=15 k=7 covariance=diag seed=42
+2026-07-17 22:35:27,809 | INFO | GMM dim=15 k=7 covariance=diag seed=43
+2026-07-17 22:35:27,848 | INFO | GMM dim=15 k=7 covariance=diag seed=44
+2026-07-17 22:35:27,867 | INFO | GMM dim=15 k=8 covariance=diag seed=42
+2026-07-17 22:35:27,889 | INFO | GMM dim=15 k=8 covariance=diag seed=43
+2026-07-17 22:35:27,908 | INFO | GMM dim=15 k=8 covariance=diag seed=44
+2026-07-17 22:35:27,930 | INFO | GMM dim=15 k=2 covariance=full seed=42
+2026-07-17 22:35:27,957 | INFO | GMM dim=15 k=2 covariance=full seed=43
+2026-07-17 22:35:28,238 | INFO | GMM dim=15 k=2 covariance=full seed=44
+2026-07-17 22:35:28,273 | INFO | GMM dim=15 k=3 covariance=full seed=42
+2026-07-17 22:35:28,555 | INFO | GMM dim=15 k=3 covariance=full seed=43
+2026-07-17 22:35:28,870 | INFO | GMM dim=15 k=3 covariance=full seed=44
+2026-07-17 22:35:29,125 | INFO | GMM dim=15 k=4 covariance=full seed=42
+2026-07-17 22:35:29,300 | INFO | GMM dim=15 k=4 covariance=full seed=43
+2026-07-17 22:35:29,538 | INFO | GMM dim=15 k=4 covariance=full seed=44
+2026-07-17 22:35:29,669 | INFO | GMM dim=15 k=5 covariance=full seed=42
+2026-07-17 22:35:29,997 | INFO | GMM dim=15 k=5 covariance=full seed=43
+2026-07-17 22:35:30,234 | INFO | GMM dim=15 k=5 covariance=full seed=44
+2026-07-17 22:35:30,479 | INFO | GMM dim=15 k=6 covariance=full seed=42
+2026-07-17 22:35:30,801 | INFO | GMM dim=15 k=6 covariance=full seed=43
+2026-07-17 22:35:31,036 | INFO | GMM dim=15 k=6 covariance=full seed=44
+2026-07-17 22:35:31,421 | INFO | GMM dim=15 k=7 covariance=full seed=42
+2026-07-17 22:35:31,810 | INFO | GMM dim=15 k=7 covariance=full seed=43
+2026-07-17 22:35:32,233 | INFO | GMM dim=15 k=7 covariance=full seed=44
+2026-07-17 22:35:32,586 | INFO | GMM dim=15 k=8 covariance=full seed=42
+2026-07-17 22:35:32,937 | INFO | GMM dim=15 k=8 covariance=full seed=43
+2026-07-17 22:35:33,210 | INFO | GMM dim=15 k=8 covariance=full seed=44
+2026-07-17 22:35:33,666 | INFO | GMM dim=20 k=2 covariance=diag seed=42
+2026-07-17 22:35:33,812 | INFO | GMM dim=20 k=2 covariance=diag seed=43
+2026-07-17 22:35:33,938 | INFO | GMM dim=20 k=2 covariance=diag seed=44
+2026-07-17 22:35:33,956 | INFO | GMM dim=20 k=3 covariance=diag seed=42
+2026-07-17 22:35:33,977 | INFO | GMM dim=20 k=3 covariance=diag seed=43
+2026-07-17 22:35:33,995 | INFO | GMM dim=20 k=3 covariance=diag seed=44
+2026-07-17 22:35:34,013 | INFO | GMM dim=20 k=4 covariance=diag seed=42
+2026-07-17 22:35:34,051 | INFO | GMM dim=20 k=4 covariance=diag seed=43
+2026-07-17 22:35:34,080 | INFO | GMM dim=20 k=4 covariance=diag seed=44
+2026-07-17 22:35:34,098 | INFO | GMM dim=20 k=5 covariance=diag seed=42
+2026-07-17 22:35:34,127 | INFO | GMM dim=20 k=5 covariance=diag seed=43
+2026-07-17 22:35:34,164 | INFO | GMM dim=20 k=5 covariance=diag seed=44
+2026-07-17 22:35:34,188 | INFO | GMM dim=20 k=6 covariance=diag seed=42
+2026-07-17 22:35:34,220 | INFO | GMM dim=20 k=6 covariance=diag seed=43
+2026-07-17 22:35:34,242 | INFO | GMM dim=20 k=6 covariance=diag seed=44
+2026-07-17 22:35:34,271 | INFO | GMM dim=20 k=7 covariance=diag seed=42
+2026-07-17 22:35:34,289 | INFO | GMM dim=20 k=7 covariance=diag seed=43
+2026-07-17 22:35:34,319 | INFO | GMM dim=20 k=7 covariance=diag seed=44
+2026-07-17 22:35:34,339 | INFO | GMM dim=20 k=8 covariance=diag seed=42
+2026-07-17 22:35:34,364 | INFO | GMM dim=20 k=8 covariance=diag seed=43
+2026-07-17 22:35:34,383 | INFO | GMM dim=20 k=8 covariance=diag seed=44
+2026-07-17 22:35:34,419 | INFO | GMM dim=20 k=2 covariance=full seed=42
+2026-07-17 22:35:34,442 | INFO | GMM dim=20 k=2 covariance=full seed=43
+2026-07-17 22:35:34,551 | INFO | GMM dim=20 k=2 covariance=full seed=44
+2026-07-17 22:35:34,786 | INFO | GMM dim=20 k=3 covariance=full seed=42
+2026-07-17 22:35:35,075 | INFO | GMM dim=20 k=3 covariance=full seed=43
+2026-07-17 22:35:35,376 | INFO | GMM dim=20 k=3 covariance=full seed=44
+2026-07-17 22:35:35,663 | INFO | GMM dim=20 k=4 covariance=full seed=42
+2026-07-17 22:35:36,004 | INFO | GMM dim=20 k=4 covariance=full seed=43
+2026-07-17 22:35:36,236 | INFO | GMM dim=20 k=4 covariance=full seed=44
+2026-07-17 22:35:36,558 | INFO | GMM dim=20 k=5 covariance=full seed=42
+2026-07-17 22:35:36,900 | INFO | GMM dim=20 k=5 covariance=full seed=43
+2026-07-17 22:35:37,322 | INFO | GMM dim=20 k=5 covariance=full seed=44
+2026-07-17 22:35:37,674 | INFO | GMM dim=20 k=6 covariance=full seed=42
+2026-07-17 22:35:37,919 | INFO | GMM dim=20 k=6 covariance=full seed=43
+2026-07-17 22:35:38,282 | INFO | GMM dim=20 k=6 covariance=full seed=44
+2026-07-17 22:35:38,662 | INFO | GMM dim=20 k=7 covariance=full seed=42
+2026-07-17 22:35:38,847 | INFO | GMM dim=20 k=7 covariance=full seed=43
+2026-07-17 22:35:39,346 | INFO | GMM dim=20 k=7 covariance=full seed=44
+2026-07-17 22:35:39,738 | INFO | GMM dim=20 k=8 covariance=full seed=42
+2026-07-17 22:35:40,106 | INFO | GMM dim=20 k=8 covariance=full seed=43
+2026-07-17 22:35:40,251 | INFO | GMM dim=20 k=8 covariance=full seed=44
+2026-07-17 22:35:40,377 | INFO | Hierarchical dim=5 k=2
+2026-07-17 22:35:40,476 | INFO | Hierarchical dim=5 k=3
+2026-07-17 22:35:40,574 | INFO | Hierarchical dim=5 k=4
+2026-07-17 22:35:40,658 | INFO | Hierarchical dim=5 k=5
+2026-07-17 22:35:40,725 | INFO | Hierarchical dim=5 k=6
+2026-07-17 22:35:40,790 | INFO | Hierarchical dim=5 k=7
+2026-07-17 22:35:40,857 | INFO | Hierarchical dim=5 k=8
+2026-07-17 22:35:40,923 | INFO | Hierarchical dim=10 k=2
+2026-07-17 22:35:40,997 | INFO | Hierarchical dim=10 k=3
+2026-07-17 22:35:41,070 | INFO | Hierarchical dim=10 k=4
+2026-07-17 22:35:41,144 | INFO | Hierarchical dim=10 k=5
+2026-07-17 22:35:41,217 | INFO | Hierarchical dim=10 k=6
+2026-07-17 22:35:41,290 | INFO | Hierarchical dim=10 k=7
+2026-07-17 22:35:41,364 | INFO | Hierarchical dim=10 k=8
+2026-07-17 22:35:58,620 | INFO | Co-association 1/322
+2026-07-17 22:35:58,689 | INFO | Co-association 2/322
+2026-07-17 22:35:58,744 | INFO | Co-association 3/322
+2026-07-17 22:35:58,808 | INFO | Co-association 4/322
+2026-07-17 22:35:58,872 | INFO | Co-association 5/322
+2026-07-17 22:35:58,936 | INFO | Co-association 6/322
+2026-07-17 22:35:58,970 | INFO | Co-association 7/322
+2026-07-17 22:35:59,003 | INFO | Co-association 8/322
+2026-07-17 22:35:59,057 | INFO | Co-association 9/322
+2026-07-17 22:35:59,112 | INFO | Co-association 10/322
+2026-07-17 22:35:59,166 | INFO | Co-association 11/322
+2026-07-17 22:35:59,194 | INFO | Co-association 12/322
+2026-07-17 22:35:59,223 | INFO | Co-association 13/322
+2026-07-17 22:35:59,251 | INFO | Co-association 14/322
+2026-07-17 22:35:59,279 | INFO | Co-association 15/322
+2026-07-17 22:35:59,307 | INFO | Co-association 16/322
+2026-07-17 22:35:59,328 | INFO | Co-association 17/322
+2026-07-17 22:35:59,348 | INFO | Co-association 18/322
+2026-07-17 22:35:59,368 | INFO | Co-association 19/322
+2026-07-17 22:35:59,388 | INFO | Co-association 20/322
+2026-07-17 22:35:59,409 | INFO | Co-association 21/322
+2026-07-17 22:35:59,426 | INFO | Co-association 22/322
+2026-07-17 22:35:59,443 | INFO | Co-association 23/322
+2026-07-17 22:35:59,461 | INFO | Co-association 24/322
+2026-07-17 22:35:59,478 | INFO | Co-association 25/322
+2026-07-17 22:35:59,495 | INFO | Co-association 26/322
+2026-07-17 22:35:59,508 | INFO | Co-association 27/322
+2026-07-17 22:35:59,521 | INFO | Co-association 28/322
+2026-07-17 22:35:59,535 | INFO | Co-association 29/322
+2026-07-17 22:35:59,548 | INFO | Co-association 30/322
+2026-07-17 22:35:59,562 | INFO | Co-association 31/322
+2026-07-17 22:35:59,573 | INFO | Co-association 32/322
+2026-07-17 22:35:59,585 | INFO | Co-association 33/322
+2026-07-17 22:35:59,596 | INFO | Co-association 34/322
+2026-07-17 22:35:59,608 | INFO | Co-association 35/322
+2026-07-17 22:35:59,619 | INFO | Co-association 36/322
+2026-07-17 22:35:59,652 | INFO | Co-association 37/322
+2026-07-17 22:35:59,716 | INFO | Co-association 38/322
+2026-07-17 22:35:59,780 | INFO | Co-association 39/322
+2026-07-17 22:35:59,834 | INFO | Co-association 40/322
+2026-07-17 22:35:59,888 | INFO | Co-association 41/322
+2026-07-17 22:35:59,921 | INFO | Co-association 42/322
+2026-07-17 22:35:59,955 | INFO | Co-association 43/322
+2026-07-17 22:35:59,987 | INFO | Co-association 44/322
+2026-07-17 22:36:00,041 | INFO | Co-association 45/322
+2026-07-17 22:36:00,095 | INFO | Co-association 46/322
+2026-07-17 22:36:00,123 | INFO | Co-association 47/322
+2026-07-17 22:36:00,152 | INFO | Co-association 48/322
+2026-07-17 22:36:00,181 | INFO | Co-association 49/322
+2026-07-17 22:36:00,209 | INFO | Co-association 50/322
+2026-07-17 22:36:00,237 | INFO | Co-association 51/322
+2026-07-17 22:36:00,257 | INFO | Co-association 52/322
+2026-07-17 22:36:00,277 | INFO | Co-association 53/322
+2026-07-17 22:36:00,298 | INFO | Co-association 54/322
+2026-07-17 22:36:00,318 | INFO | Co-association 55/322
+2026-07-17 22:36:00,338 | INFO | Co-association 56/322
+2026-07-17 22:36:00,358 | INFO | Co-association 57/322
+2026-07-17 22:36:00,377 | INFO | Co-association 58/322
+2026-07-17 22:36:00,397 | INFO | Co-association 59/322
+2026-07-17 22:36:00,417 | INFO | Co-association 60/322
+2026-07-17 22:36:00,437 | INFO | Co-association 61/322
+2026-07-17 22:36:00,453 | INFO | Co-association 62/322
+2026-07-17 22:36:00,469 | INFO | Co-association 63/322
+2026-07-17 22:36:00,486 | INFO | Co-association 64/322
+2026-07-17 22:36:00,502 | INFO | Co-association 65/322
+2026-07-17 22:36:00,518 | INFO | Co-association 66/322
+2026-07-17 22:36:00,534 | INFO | Co-association 67/322
+2026-07-17 22:36:00,547 | INFO | Co-association 68/322
+2026-07-17 22:36:00,562 | INFO | Co-association 69/322
+2026-07-17 22:36:00,577 | INFO | Co-association 70/322
+2026-07-17 22:36:00,594 | INFO | Co-association 71/322
+2026-07-17 22:36:00,656 | INFO | Co-association 72/322
+2026-07-17 22:36:00,720 | INFO | Co-association 73/322
+2026-07-17 22:36:00,784 | INFO | Co-association 74/322
+2026-07-17 22:36:00,839 | INFO | Co-association 75/322
+2026-07-17 22:36:00,903 | INFO | Co-association 76/322
+2026-07-17 22:36:00,936 | INFO | Co-association 77/322
+2026-07-17 22:36:00,964 | INFO | Co-association 78/322
+2026-07-17 22:36:00,997 | INFO | Co-association 79/322
+2026-07-17 22:36:01,052 | INFO | Co-association 80/322
+2026-07-17 22:36:01,085 | INFO | Co-association 81/322
+2026-07-17 22:36:01,107 | INFO | Co-association 82/322
+2026-07-17 22:36:01,135 | INFO | Co-association 83/322
+2026-07-17 22:36:01,163 | INFO | Co-association 84/322
+2026-07-17 22:36:01,192 | INFO | Co-association 85/322
+2026-07-17 22:36:01,220 | INFO | Co-association 86/322
+2026-07-17 22:36:01,239 | INFO | Co-association 87/322
+2026-07-17 22:36:01,262 | INFO | Co-association 88/322
+2026-07-17 22:36:01,290 | INFO | Co-association 89/322
+2026-07-17 22:36:01,313 | INFO | Co-association 90/322
+2026-07-17 22:36:01,335 | INFO | Co-association 91/322
+2026-07-17 22:36:01,351 | INFO | Co-association 92/322
+2026-07-17 22:36:01,373 | INFO | Co-association 93/322
+2026-07-17 22:36:01,395 | INFO | Co-association 94/322
+2026-07-17 22:36:01,414 | INFO | Co-association 95/322
+2026-07-17 22:36:01,434 | INFO | Co-association 96/322
+2026-07-17 22:36:01,450 | INFO | Co-association 97/322
+2026-07-17 22:36:01,466 | INFO | Co-association 98/322
+2026-07-17 22:36:01,482 | INFO | Co-association 99/322
+2026-07-17 22:36:01,498 | INFO | Co-association 100/322
+2026-07-17 22:36:01,514 | INFO | Co-association 101/322
+2026-07-17 22:36:01,529 | INFO | Co-association 102/322
+2026-07-17 22:36:01,543 | INFO | Co-association 103/322
+2026-07-17 22:36:01,557 | INFO | Co-association 104/322
+2026-07-17 22:36:01,571 | INFO | Co-association 105/322
+2026-07-17 22:36:01,585 | INFO | Co-association 106/322
+2026-07-17 22:36:01,618 | INFO | Co-association 107/322
+2026-07-17 22:36:01,682 | INFO | Co-association 108/322
+2026-07-17 22:36:01,746 | INFO | Co-association 109/322
+2026-07-17 22:36:01,810 | INFO | Co-association 110/322
+2026-07-17 22:36:01,864 | INFO | Co-association 111/322
+2026-07-17 22:36:01,897 | INFO | Co-association 112/322
+2026-07-17 22:36:01,930 | INFO | Co-association 113/322
+2026-07-17 22:36:01,963 | INFO | Co-association 114/322
+2026-07-17 22:36:01,995 | INFO | Co-association 115/322
+2026-07-17 22:36:02,028 | INFO | Co-association 116/322
+2026-07-17 22:36:02,051 | INFO | Co-association 117/322
+2026-07-17 22:36:02,079 | INFO | Co-association 118/322
+2026-07-17 22:36:02,107 | INFO | Co-association 119/322
+2026-07-17 22:36:02,136 | INFO | Co-association 120/322
+2026-07-17 22:36:02,164 | INFO | Co-association 121/322
+2026-07-17 22:36:02,186 | INFO | Co-association 122/322
+2026-07-17 22:36:02,214 | INFO | Co-association 123/322
+2026-07-17 22:36:02,233 | INFO | Co-association 124/322
+2026-07-17 22:36:02,262 | INFO | Co-association 125/322
+2026-07-17 22:36:02,284 | INFO | Co-association 126/322
+2026-07-17 22:36:02,304 | INFO | Co-association 127/322
+2026-07-17 22:36:02,324 | INFO | Co-association 128/322
+2026-07-17 22:36:02,345 | INFO | Co-association 129/322
+2026-07-17 22:36:02,367 | INFO | Co-association 130/322
+2026-07-17 22:36:02,389 | INFO | Co-association 131/322
+2026-07-17 22:36:02,405 | INFO | Co-association 132/322
+2026-07-17 22:36:02,427 | INFO | Co-association 133/322
+2026-07-17 22:36:02,444 | INFO | Co-association 134/322
+2026-07-17 22:36:02,460 | INFO | Co-association 135/322
+2026-07-17 22:36:02,485 | INFO | Co-association 136/322
+2026-07-17 22:36:02,499 | INFO | Co-association 137/322
+2026-07-17 22:36:02,516 | INFO | Co-association 138/322
+2026-07-17 22:36:02,531 | INFO | Co-association 139/322
+2026-07-17 22:36:02,545 | INFO | Co-association 140/322
+2026-07-17 22:36:02,564 | INFO | Co-association 141/322
+2026-07-17 22:36:02,613 | INFO | Co-association 142/322
+2026-07-17 22:36:02,669 | INFO | Co-association 143/322
+2026-07-17 22:36:02,727 | INFO | Co-association 144/322
+2026-07-17 22:36:02,777 | INFO | Co-association 145/322
+2026-07-17 22:36:02,808 | INFO | Co-association 146/322
+2026-07-17 22:36:02,857 | INFO | Co-association 147/322
+2026-07-17 22:36:02,883 | INFO | Co-association 148/322
+2026-07-17 22:36:02,907 | INFO | Co-association 149/322
+2026-07-17 22:36:02,933 | INFO | Co-association 150/322
+2026-07-17 22:36:02,951 | INFO | Co-association 151/322
+2026-07-17 22:36:02,973 | INFO | Co-association 152/322
+2026-07-17 22:36:02,996 | INFO | Co-association 153/322
+2026-07-17 22:36:03,014 | INFO | Co-association 154/322
+2026-07-17 22:36:03,031 | INFO | Co-association 155/322
+2026-07-17 22:36:03,048 | INFO | Co-association 156/322
+2026-07-17 22:36:03,065 | INFO | Co-association 157/322
+2026-07-17 22:36:03,079 | INFO | Co-association 158/322
+2026-07-17 22:36:03,097 | INFO | Co-association 159/322
+2026-07-17 22:36:03,110 | INFO | Co-association 160/322
+2026-07-17 22:36:03,123 | INFO | Co-association 161/322
+2026-07-17 22:36:03,137 | INFO | Co-association 162/322
+2026-07-17 22:36:03,187 | INFO | Co-association 163/322
+2026-07-17 22:36:03,246 | INFO | Co-association 164/322
+2026-07-17 22:36:03,304 | INFO | Co-association 165/322
+2026-07-17 22:36:03,355 | INFO | Co-association 166/322
+2026-07-17 22:36:03,405 | INFO | Co-association 167/322
+2026-07-17 22:36:03,455 | INFO | Co-association 168/322
+2026-07-17 22:36:03,483 | INFO | Co-association 169/322
+2026-07-17 22:36:03,531 | INFO | Co-association 170/322
+2026-07-17 22:36:03,578 | INFO | Co-association 171/322
+2026-07-17 22:36:03,597 | INFO | Co-association 172/322
+2026-07-17 22:36:03,623 | INFO | Co-association 173/322
+2026-07-17 22:36:03,649 | INFO | Co-association 174/322
+2026-07-17 22:36:03,673 | INFO | Co-association 175/322
+2026-07-17 22:36:03,698 | INFO | Co-association 176/322
+2026-07-17 22:36:03,722 | INFO | Co-association 177/322
+2026-07-17 22:36:03,739 | INFO | Co-association 178/322
+2026-07-17 22:36:03,755 | INFO | Co-association 179/322
+2026-07-17 22:36:03,773 | INFO | Co-association 180/322
+2026-07-17 22:36:03,786 | INFO | Co-association 181/322
+2026-07-17 22:36:03,799 | INFO | Co-association 182/322
+2026-07-17 22:36:03,812 | INFO | Co-association 183/322
+2026-07-17 22:36:03,867 | INFO | Co-association 184/322
+2026-07-17 22:36:03,920 | INFO | Co-association 185/322
+2026-07-17 22:36:03,974 | INFO | Co-association 186/322
+2026-07-17 22:36:04,009 | INFO | Co-association 187/322
+2026-07-17 22:36:04,042 | INFO | Co-association 188/322
+2026-07-17 22:36:04,076 | INFO | Co-association 189/322
+2026-07-17 22:36:04,099 | INFO | Co-association 190/322
+2026-07-17 22:36:04,121 | INFO | Co-association 191/322
+2026-07-17 22:36:04,151 | INFO | Co-association 192/322
+2026-07-17 22:36:04,175 | INFO | Co-association 193/322
+2026-07-17 22:36:04,198 | INFO | Co-association 194/322
+2026-07-17 22:36:04,221 | INFO | Co-association 195/322
+2026-07-17 22:36:04,238 | INFO | Co-association 196/322
+2026-07-17 22:36:04,256 | INFO | Co-association 197/322
+2026-07-17 22:36:04,273 | INFO | Co-association 198/322
+2026-07-17 22:36:04,287 | INFO | Co-association 199/322
+2026-07-17 22:36:04,300 | INFO | Co-association 200/322
+2026-07-17 22:36:04,314 | INFO | Co-association 201/322
+2026-07-17 22:36:04,327 | INFO | Co-association 202/322
+2026-07-17 22:36:04,339 | INFO | Co-association 203/322
+2026-07-17 22:36:04,352 | INFO | Co-association 204/322
+2026-07-17 22:36:04,400 | INFO | Co-association 205/322
+2026-07-17 22:36:04,450 | INFO | Co-association 206/322
+2026-07-17 22:36:04,503 | INFO | Co-association 207/322
+2026-07-17 22:36:04,549 | INFO | Co-association 208/322
+2026-07-17 22:36:04,597 | INFO | Co-association 209/322
+2026-07-17 22:36:04,642 | INFO | Co-association 210/322
+2026-07-17 22:36:04,681 | INFO | Co-association 211/322
+2026-07-17 22:36:04,714 | INFO | Co-association 212/322
+2026-07-17 22:36:04,756 | INFO | Co-association 213/322
+2026-07-17 22:36:04,780 | INFO | Co-association 214/322
+2026-07-17 22:36:04,804 | INFO | Co-association 215/322
+2026-07-17 22:36:04,828 | INFO | Co-association 216/322
+2026-07-17 22:36:04,851 | INFO | Co-association 217/322
+2026-07-17 22:36:04,870 | INFO | Co-association 218/322
+2026-07-17 22:36:04,892 | INFO | Co-association 219/322
+2026-07-17 22:36:04,909 | INFO | Co-association 220/322
+2026-07-17 22:36:04,926 | INFO | Co-association 221/322
+2026-07-17 22:36:04,947 | INFO | Co-association 222/322
+2026-07-17 22:36:04,964 | INFO | Co-association 223/322
+2026-07-17 22:36:04,977 | INFO | Co-association 224/322
+2026-07-17 22:36:04,994 | INFO | Co-association 225/322
+2026-07-17 22:36:05,048 | INFO | Co-association 226/322
+2026-07-17 22:36:05,101 | INFO | Co-association 227/322
+2026-07-17 22:36:05,155 | INFO | Co-association 228/322
+2026-07-17 22:36:05,195 | INFO | Co-association 229/322
+2026-07-17 22:36:05,224 | INFO | Co-association 230/322
+2026-07-17 22:36:05,254 | INFO | Co-association 231/322
+2026-07-17 22:36:05,282 | INFO | Co-association 232/322
+2026-07-17 22:36:05,307 | INFO | Co-association 233/322
+2026-07-17 22:36:05,333 | INFO | Co-association 234/322
+2026-07-17 22:36:05,357 | INFO | Co-association 235/322
+2026-07-17 22:36:05,381 | INFO | Co-association 236/322
+2026-07-17 22:36:05,403 | INFO | Co-association 237/322
+2026-07-17 22:36:05,425 | INFO | Co-association 238/322
+2026-07-17 22:36:05,442 | INFO | Co-association 239/322
+2026-07-17 22:36:05,458 | INFO | Co-association 240/322
+2026-07-17 22:36:05,473 | INFO | Co-association 241/322
+2026-07-17 22:36:05,488 | INFO | Co-association 242/322
+2026-07-17 22:36:05,503 | INFO | Co-association 243/322
+2026-07-17 22:36:05,516 | INFO | Co-association 244/322
+2026-07-17 22:36:05,531 | INFO | Co-association 245/322
+2026-07-17 22:36:05,545 | INFO | Co-association 246/322
+2026-07-17 22:36:05,582 | INFO | Co-association 247/322
+2026-07-17 22:36:05,626 | INFO | Co-association 248/322
+2026-07-17 22:36:05,682 | INFO | Co-association 249/322
+2026-07-17 22:36:05,713 | INFO | Co-association 250/322
+2026-07-17 22:36:05,736 | INFO | Co-association 251/322
+2026-07-17 22:36:05,761 | INFO | Co-association 252/322
+2026-07-17 22:36:05,785 | INFO | Co-association 253/322
+2026-07-17 22:36:05,805 | INFO | Co-association 254/322
+2026-07-17 22:36:05,829 | INFO | Co-association 255/322
+2026-07-17 22:36:05,852 | INFO | Co-association 256/322
+2026-07-17 22:36:05,871 | INFO | Co-association 257/322
+2026-07-17 22:36:05,888 | INFO | Co-association 258/322
+2026-07-17 22:36:05,910 | INFO | Co-association 259/322
+2026-07-17 22:36:05,930 | INFO | Co-association 260/322
+2026-07-17 22:36:05,946 | INFO | Co-association 261/322
+2026-07-17 22:36:05,960 | INFO | Co-association 262/322
+2026-07-17 22:36:05,976 | INFO | Co-association 263/322
+2026-07-17 22:36:05,992 | INFO | Co-association 264/322
+2026-07-17 22:36:06,006 | INFO | Co-association 265/322
+2026-07-17 22:36:06,022 | INFO | Co-association 266/322
+2026-07-17 22:36:06,038 | INFO | Co-association 267/322
+2026-07-17 22:36:06,090 | INFO | Co-association 268/322
+2026-07-17 22:36:06,141 | INFO | Co-association 269/322
+2026-07-17 22:36:06,192 | INFO | Co-association 270/322
+2026-07-17 22:36:06,224 | INFO | Co-association 271/322
+2026-07-17 22:36:06,262 | INFO | Co-association 272/322
+2026-07-17 22:36:06,293 | INFO | Co-association 273/322
+2026-07-17 22:36:06,314 | INFO | Co-association 274/322
+2026-07-17 22:36:06,336 | INFO | Co-association 275/322
+2026-07-17 22:36:06,365 | INFO | Co-association 276/322
+2026-07-17 22:36:06,384 | INFO | Co-association 277/322
+2026-07-17 22:36:06,401 | INFO | Co-association 278/322
+2026-07-17 22:36:06,422 | INFO | Co-association 279/322
+2026-07-17 22:36:06,441 | INFO | Co-association 280/322
+2026-07-17 22:36:06,460 | INFO | Co-association 281/322
+2026-07-17 22:36:06,481 | INFO | Co-association 282/322
+2026-07-17 22:36:06,497 | INFO | Co-association 283/322
+2026-07-17 22:36:06,514 | INFO | Co-association 284/322
+2026-07-17 22:36:06,530 | INFO | Co-association 285/322
+2026-07-17 22:36:06,544 | INFO | Co-association 286/322
+2026-07-17 22:36:06,557 | INFO | Co-association 287/322
+2026-07-17 22:36:06,573 | INFO | Co-association 288/322
+2026-07-17 22:36:06,616 | INFO | Co-association 289/322
+2026-07-17 22:36:06,653 | INFO | Co-association 290/322
+2026-07-17 22:36:06,687 | INFO | Co-association 291/322
+2026-07-17 22:36:06,722 | INFO | Co-association 292/322
+2026-07-17 22:36:06,749 | INFO | Co-association 293/322
+2026-07-17 22:36:06,784 | INFO | Co-association 294/322
+2026-07-17 22:36:06,815 | INFO | Co-association 295/322
+2026-07-17 22:36:06,841 | INFO | Co-association 296/322
+2026-07-17 22:36:06,865 | INFO | Co-association 297/322
+2026-07-17 22:36:06,888 | INFO | Co-association 298/322
+2026-07-17 22:36:06,909 | INFO | Co-association 299/322
+2026-07-17 22:36:06,928 | INFO | Co-association 300/322
+2026-07-17 22:36:06,944 | INFO | Co-association 301/322
+2026-07-17 22:36:06,968 | INFO | Co-association 302/322
+2026-07-17 22:36:06,984 | INFO | Co-association 303/322
+2026-07-17 22:36:07,000 | INFO | Co-association 304/322
+2026-07-17 22:36:07,018 | INFO | Co-association 305/322
+2026-07-17 22:36:07,034 | INFO | Co-association 306/322
+2026-07-17 22:36:07,047 | INFO | Co-association 307/322
+2026-07-17 22:36:07,061 | INFO | Co-association 308/322
+2026-07-17 22:36:07,079 | INFO | Co-association 309/322
+2026-07-17 22:36:07,143 | INFO | Co-association 310/322
+2026-07-17 22:36:07,197 | INFO | Co-association 311/322
+2026-07-17 22:36:07,226 | INFO | Co-association 312/322
+2026-07-17 22:36:07,246 | INFO | Co-association 313/322
+2026-07-17 22:36:07,262 | INFO | Co-association 314/322
+2026-07-17 22:36:07,277 | INFO | Co-association 315/322
+2026-07-17 22:36:07,291 | INFO | Co-association 316/322
+2026-07-17 22:36:07,355 | INFO | Co-association 317/322
+2026-07-17 22:36:07,410 | INFO | Co-association 318/322
+2026-07-17 22:36:07,438 | INFO | Co-association 319/322
+2026-07-17 22:36:07,466 | INFO | Co-association 320/322
+2026-07-17 22:36:07,488 | INFO | Co-association 321/322
+2026-07-17 22:36:07,503 | INFO | Co-association 322/322
+2026-07-17 22:36:12,314 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/coassociation_heatmap.png
+2026-07-17 22:36:12,780 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/consensus_k_selection.png
+2026-07-17 22:36:13,048 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/consensus_pca_projection.png
+2026-07-17 22:36:14,466 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/cluster_profile_heatmap.png
+2026-07-17 22:36:14,499 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-17 22:36:14,502 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-17 22:36:14,515 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-17 22:36:14,518 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-07-17 22:36:14,702 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/fraud_composition_by_cluster.png
+2026-07-17 22:36:15,112 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/cluster_rule_tree.png
+2026-07-17 22:36:15,541 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/cluster_anomaly_scores.png
+2026-07-17 22:36:16,236 | INFO | Saved figure: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase3/preprocessing_sensitivity_heatmap.png
+2026-07-17 22:36:16,238 | INFO | Phase 3 completed in 1.16 minutes

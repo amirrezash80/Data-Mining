@@ -1,128 +1,128 @@
-2026-07-17 19:05:54,822 | INFO | =================================================================
-2026-07-17 19:05:54,822 | INFO | Phase 2 pipeline started
-2026-07-17 19:05:54,822 | INFO | Project root: /Users/nic/Desktop/Data-mining/credit-card-clustering
-2026-07-17 19:05:54,822 | INFO | =================================================================
-2026-07-17 19:05:54,822 | INFO | Loading Phase 1 arrays from: /Users/nic/Desktop/Data-mining/credit-card-clustering/data/processed/phase1_arrays.npz
-2026-07-17 19:05:55,259 | INFO | Loaded representation X_pca with shape (283726, 28)
-2026-07-17 19:05:55,290 | INFO | K-Means search: k=2
-2026-07-17 19:05:55,901 | INFO | K-Means search: k=3
-2026-07-17 19:05:56,407 | INFO | K-Means search: k=4
-2026-07-17 19:05:56,806 | INFO | K-Means search: k=5
-2026-07-17 19:05:57,238 | INFO | K-Means search: k=6
-2026-07-17 19:05:57,675 | INFO | K-Means search: k=7
-2026-07-17 19:05:58,157 | INFO | K-Means search: k=8
-2026-07-17 19:05:59,474 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/kmeans_k_selection.png
-2026-07-17 19:05:59,761 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/kmeans_convergence_curve.png
-2026-07-17 19:05:59,762 | INFO | Gap statistic: k=2
-2026-07-17 19:05:59,946 | INFO | Gap statistic: k=3
-2026-07-17 19:06:00,307 | INFO | Gap statistic: k=4
-2026-07-17 19:06:00,765 | INFO | Gap statistic: k=5
-2026-07-17 19:06:01,259 | INFO | Gap statistic: k=6
-2026-07-17 19:06:01,854 | INFO | Gap statistic: k=7
-2026-07-17 19:06:02,646 | INFO | Gap statistic: k=8
-2026-07-17 19:06:03,738 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/gap_statistic.png
-2026-07-17 19:06:03,767 | INFO | Hierarchical diagnostics: linkage=single
-2026-07-17 19:06:04,222 | INFO | Hierarchical diagnostics: linkage=complete
-2026-07-17 19:06:04,672 | INFO | Hierarchical diagnostics: linkage=average
-2026-07-17 19:06:05,122 | INFO | Hierarchical diagnostics: linkage=ward
-2026-07-17 19:06:05,943 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/hierarchical_dendrograms.png
-2026-07-17 19:06:06,184 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/hierarchical_linkage_comparison.png
-2026-07-17 19:06:06,539 | INFO | Computing k-distance for min_samples=10
-2026-07-17 19:06:06,902 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/dbscan_k_distance_10.png
-2026-07-17 19:06:06,903 | INFO | DBSCAN: eps=4.288817,min_samples=10
-2026-07-17 19:06:07,034 | INFO | DBSCAN: eps=4.747305,min_samples=10
-2026-07-17 19:06:07,233 | INFO | DBSCAN: eps=5.707336,min_samples=10
-2026-07-17 19:06:07,649 | INFO | DBSCAN: eps=6.699747,min_samples=10
-2026-07-17 19:06:08,323 | INFO | DBSCAN: eps=9.808864,min_samples=10
-2026-07-17 19:06:09,139 | INFO | Computing k-distance for min_samples=20
-2026-07-17 19:06:09,417 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/dbscan_k_distance_20.png
-2026-07-17 19:06:09,417 | INFO | DBSCAN: eps=4.596320,min_samples=20
-2026-07-17 19:06:09,629 | INFO | DBSCAN: eps=5.071345,min_samples=20
-2026-07-17 19:06:09,923 | INFO | DBSCAN: eps=6.100841,min_samples=20
-2026-07-17 19:06:10,515 | INFO | DBSCAN: eps=7.294060,min_samples=20
-2026-07-17 19:06:11,365 | INFO | DBSCAN: eps=10.949539,min_samples=20
-2026-07-17 19:06:12,468 | INFO | Computing k-distance for min_samples=30
-2026-07-17 19:06:12,807 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/dbscan_k_distance_30.png
-2026-07-17 19:06:12,807 | INFO | DBSCAN: eps=4.771827,min_samples=30
-2026-07-17 19:06:12,995 | INFO | DBSCAN: eps=5.245489,min_samples=30
-2026-07-17 19:06:13,234 | INFO | DBSCAN: eps=6.343075,min_samples=30
-2026-07-17 19:06:13,611 | INFO | DBSCAN: eps=7.563001,min_samples=30
-2026-07-17 19:06:14,291 | INFO | DBSCAN: eps=11.405267,min_samples=30
-2026-07-17 19:06:14,898 | WARNING | No DBSCAN configuration produced at least two valid non-noise clusters.
-2026-07-17 19:06:14,900 | INFO | GMM: k=2,covariance=spherical
-2026-07-17 19:06:15,069 | INFO | GMM: k=3,covariance=spherical
-2026-07-17 19:06:15,383 | INFO | GMM: k=4,covariance=spherical
-2026-07-17 19:06:15,680 | INFO | GMM: k=5,covariance=spherical
-2026-07-17 19:06:16,081 | INFO | GMM: k=6,covariance=spherical
-2026-07-17 19:06:16,542 | INFO | GMM: k=7,covariance=spherical
-2026-07-17 19:06:16,885 | INFO | GMM: k=8,covariance=spherical
-2026-07-17 19:06:17,363 | INFO | GMM: k=2,covariance=diag
-2026-07-17 19:06:17,580 | INFO | GMM: k=3,covariance=diag
-2026-07-17 19:06:17,980 | INFO | GMM: k=4,covariance=diag
-2026-07-17 19:06:18,254 | INFO | GMM: k=5,covariance=diag
-2026-07-17 19:06:18,724 | INFO | GMM: k=6,covariance=diag
-2026-07-17 19:06:19,116 | INFO | GMM: k=7,covariance=diag
-2026-07-17 19:06:19,576 | INFO | GMM: k=8,covariance=diag
-2026-07-17 19:06:20,037 | INFO | GMM: k=2,covariance=tied
-2026-07-17 19:06:20,255 | INFO | GMM: k=3,covariance=tied
-2026-07-17 19:06:20,982 | INFO | GMM: k=4,covariance=tied
-2026-07-17 19:06:21,622 | INFO | GMM: k=5,covariance=tied
-2026-07-17 19:06:22,110 | INFO | GMM: k=6,covariance=tied
-2026-07-17 19:06:22,804 | INFO | GMM: k=7,covariance=tied
-2026-07-17 19:06:23,531 | INFO | GMM: k=8,covariance=tied
-2026-07-17 19:06:24,374 | INFO | GMM: k=2,covariance=full
-2026-07-17 19:06:24,732 | INFO | GMM: k=3,covariance=full
-2026-07-17 19:06:25,732 | INFO | GMM: k=4,covariance=full
-2026-07-17 19:06:26,864 | INFO | GMM: k=5,covariance=full
-2026-07-17 19:06:28,102 | INFO | GMM: k=6,covariance=full
-2026-07-17 19:06:29,223 | INFO | GMM: k=7,covariance=full
-2026-07-17 19:06:30,222 | INFO | GMM: k=8,covariance=full
-2026-07-17 19:06:31,921 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/gmm_bic_aic.png
-2026-07-17 19:06:32,497 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/gmm_convergence_curve.png
-2026-07-17 19:06:33,841 | INFO | KMeans seed-stability run 1/20
-2026-07-17 19:06:33,923 | INFO | KMeans seed-stability run 2/20
-2026-07-17 19:06:34,092 | INFO | KMeans seed-stability run 3/20
-2026-07-17 19:06:34,105 | INFO | KMeans seed-stability run 4/20
-2026-07-17 19:06:34,110 | INFO | KMeans seed-stability run 5/20
-2026-07-17 19:06:34,123 | INFO | KMeans seed-stability run 6/20
-2026-07-17 19:06:34,133 | INFO | KMeans seed-stability run 7/20
-2026-07-17 19:06:34,142 | INFO | KMeans seed-stability run 8/20
-2026-07-17 19:06:34,147 | INFO | KMeans seed-stability run 9/20
-2026-07-17 19:06:34,157 | INFO | KMeans seed-stability run 10/20
-2026-07-17 19:06:34,161 | INFO | KMeans seed-stability run 11/20
-2026-07-17 19:06:34,171 | INFO | KMeans seed-stability run 12/20
-2026-07-17 19:06:34,179 | INFO | KMeans seed-stability run 13/20
-2026-07-17 19:06:34,191 | INFO | KMeans seed-stability run 14/20
-2026-07-17 19:06:34,199 | INFO | KMeans seed-stability run 15/20
-2026-07-17 19:06:34,203 | INFO | KMeans seed-stability run 16/20
-2026-07-17 19:06:34,213 | INFO | KMeans seed-stability run 17/20
-2026-07-17 19:06:34,225 | INFO | KMeans seed-stability run 18/20
-2026-07-17 19:06:34,238 | INFO | KMeans seed-stability run 19/20
-2026-07-17 19:06:34,248 | INFO | KMeans seed-stability run 20/20
-2026-07-17 19:06:34,481 | INFO | GMM seed-stability run 1/20
-2026-07-17 19:06:34,883 | INFO | GMM seed-stability run 2/20
-2026-07-17 19:06:35,220 | INFO | GMM seed-stability run 3/20
-2026-07-17 19:06:35,715 | INFO | GMM seed-stability run 4/20
-2026-07-17 19:06:36,199 | INFO | GMM seed-stability run 5/20
-2026-07-17 19:06:36,768 | INFO | GMM seed-stability run 6/20
-2026-07-17 19:06:37,171 | INFO | GMM seed-stability run 7/20
-2026-07-17 19:06:37,762 | INFO | GMM seed-stability run 8/20
-2026-07-17 19:06:38,371 | INFO | GMM seed-stability run 9/20
-2026-07-17 19:06:38,910 | INFO | GMM seed-stability run 10/20
-2026-07-17 19:06:39,216 | INFO | GMM seed-stability run 11/20
-2026-07-17 19:06:39,566 | INFO | GMM seed-stability run 12/20
-2026-07-17 19:06:39,969 | INFO | GMM seed-stability run 13/20
-2026-07-17 19:06:40,319 | INFO | GMM seed-stability run 14/20
-2026-07-17 19:06:40,853 | INFO | GMM seed-stability run 15/20
-2026-07-17 19:06:42,422 | INFO | GMM seed-stability run 16/20
-2026-07-17 19:06:43,337 | INFO | GMM seed-stability run 17/20
-2026-07-17 19:06:44,246 | INFO | GMM seed-stability run 18/20
-2026-07-17 19:06:45,147 | INFO | GMM seed-stability run 19/20
-2026-07-17 19:06:45,435 | INFO | GMM seed-stability run 20/20
-2026-07-17 19:06:53,164 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/stability_comparison.png
-2026-07-17 19:06:53,397 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/algorithm_agreement_heatmap.png
-2026-07-17 19:06:54,918 | INFO | =================================================================
-2026-07-17 19:06:54,918 | INFO | Phase 2 completed successfully in 1.00 minutes
-2026-07-17 19:06:54,918 | INFO | Reports: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/phase2
-2026-07-17 19:06:54,918 | INFO | Figures: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2
-2026-07-17 19:06:54,918 | INFO | =================================================================
+2026-07-17 22:34:06,138 | INFO | =================================================================
+2026-07-17 22:34:06,138 | INFO | Phase 2 pipeline started
+2026-07-17 22:34:06,138 | INFO | Project root: /Users/nic/Desktop/Data-mining/credit-card-clustering
+2026-07-17 22:34:06,138 | INFO | =================================================================
+2026-07-17 22:34:06,138 | INFO | Loading Phase 1 arrays from: /Users/nic/Desktop/Data-mining/credit-card-clustering/data/processed/phase1_arrays.npz
+2026-07-17 22:34:06,569 | INFO | Loaded representation X_pca with shape (283726, 28)
+2026-07-17 22:34:06,592 | INFO | K-Means search: k=2
+2026-07-17 22:34:07,131 | INFO | K-Means search: k=3
+2026-07-17 22:34:07,442 | INFO | K-Means search: k=4
+2026-07-17 22:34:07,865 | INFO | K-Means search: k=5
+2026-07-17 22:34:08,293 | INFO | K-Means search: k=6
+2026-07-17 22:34:08,714 | INFO | K-Means search: k=7
+2026-07-17 22:34:09,192 | INFO | K-Means search: k=8
+2026-07-17 22:34:10,386 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/kmeans_k_selection.png
+2026-07-17 22:34:10,673 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/kmeans_convergence_curve.png
+2026-07-17 22:34:10,674 | INFO | Gap statistic: k=2
+2026-07-17 22:34:10,860 | INFO | Gap statistic: k=3
+2026-07-17 22:34:11,252 | INFO | Gap statistic: k=4
+2026-07-17 22:34:11,734 | INFO | Gap statistic: k=5
+2026-07-17 22:34:12,247 | INFO | Gap statistic: k=6
+2026-07-17 22:34:12,857 | INFO | Gap statistic: k=7
+2026-07-17 22:34:13,680 | INFO | Gap statistic: k=8
+2026-07-17 22:34:14,773 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/gap_statistic.png
+2026-07-17 22:34:14,800 | INFO | Hierarchical diagnostics: linkage=single
+2026-07-17 22:34:15,242 | INFO | Hierarchical diagnostics: linkage=complete
+2026-07-17 22:34:15,687 | INFO | Hierarchical diagnostics: linkage=average
+2026-07-17 22:34:16,130 | INFO | Hierarchical diagnostics: linkage=ward
+2026-07-17 22:34:16,939 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/hierarchical_dendrograms.png
+2026-07-17 22:34:17,176 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/hierarchical_linkage_comparison.png
+2026-07-17 22:34:17,527 | INFO | Computing k-distance for min_samples=10
+2026-07-17 22:34:17,879 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/dbscan_k_distance_10.png
+2026-07-17 22:34:17,879 | INFO | DBSCAN: eps=4.288817,min_samples=10
+2026-07-17 22:34:18,016 | INFO | DBSCAN: eps=4.747305,min_samples=10
+2026-07-17 22:34:18,219 | INFO | DBSCAN: eps=5.707336,min_samples=10
+2026-07-17 22:34:18,531 | INFO | DBSCAN: eps=6.699747,min_samples=10
+2026-07-17 22:34:19,197 | INFO | DBSCAN: eps=9.808864,min_samples=10
+2026-07-17 22:34:20,020 | INFO | Computing k-distance for min_samples=20
+2026-07-17 22:34:20,309 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/dbscan_k_distance_20.png
+2026-07-17 22:34:20,310 | INFO | DBSCAN: eps=4.596320,min_samples=20
+2026-07-17 22:34:20,471 | INFO | DBSCAN: eps=5.071345,min_samples=20
+2026-07-17 22:34:20,769 | INFO | DBSCAN: eps=6.100841,min_samples=20
+2026-07-17 22:34:21,181 | INFO | DBSCAN: eps=7.294060,min_samples=20
+2026-07-17 22:34:21,806 | INFO | DBSCAN: eps=10.949539,min_samples=20
+2026-07-17 22:34:22,633 | INFO | Computing k-distance for min_samples=30
+2026-07-17 22:34:22,981 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/dbscan_k_distance_30.png
+2026-07-17 22:34:22,982 | INFO | DBSCAN: eps=4.771827,min_samples=30
+2026-07-17 22:34:23,209 | INFO | DBSCAN: eps=5.245489,min_samples=30
+2026-07-17 22:34:23,471 | INFO | DBSCAN: eps=6.343075,min_samples=30
+2026-07-17 22:34:23,923 | INFO | DBSCAN: eps=7.563001,min_samples=30
+2026-07-17 22:34:24,557 | INFO | DBSCAN: eps=11.405267,min_samples=30
+2026-07-17 22:34:25,220 | WARNING | No DBSCAN configuration produced at least two valid non-noise clusters.
+2026-07-17 22:34:25,221 | INFO | GMM: k=2,covariance=spherical
+2026-07-17 22:34:25,384 | INFO | GMM: k=3,covariance=spherical
+2026-07-17 22:34:25,666 | INFO | GMM: k=4,covariance=spherical
+2026-07-17 22:34:26,008 | INFO | GMM: k=5,covariance=spherical
+2026-07-17 22:34:26,376 | INFO | GMM: k=6,covariance=spherical
+2026-07-17 22:34:26,766 | INFO | GMM: k=7,covariance=spherical
+2026-07-17 22:34:27,101 | INFO | GMM: k=8,covariance=spherical
+2026-07-17 22:34:27,502 | INFO | GMM: k=2,covariance=diag
+2026-07-17 22:34:27,755 | INFO | GMM: k=3,covariance=diag
+2026-07-17 22:34:28,093 | INFO | GMM: k=4,covariance=diag
+2026-07-17 22:34:28,377 | INFO | GMM: k=5,covariance=diag
+2026-07-17 22:34:28,808 | INFO | GMM: k=6,covariance=diag
+2026-07-17 22:34:29,292 | INFO | GMM: k=7,covariance=diag
+2026-07-17 22:34:29,733 | INFO | GMM: k=8,covariance=diag
+2026-07-17 22:34:30,190 | INFO | GMM: k=2,covariance=tied
+2026-07-17 22:34:30,448 | INFO | GMM: k=3,covariance=tied
+2026-07-17 22:34:31,051 | INFO | GMM: k=4,covariance=tied
+2026-07-17 22:34:31,834 | INFO | GMM: k=5,covariance=tied
+2026-07-17 22:34:32,785 | INFO | GMM: k=6,covariance=tied
+2026-07-17 22:34:33,732 | INFO | GMM: k=7,covariance=tied
+2026-07-17 22:34:34,744 | INFO | GMM: k=8,covariance=tied
+2026-07-17 22:34:35,785 | INFO | GMM: k=2,covariance=full
+2026-07-17 22:34:36,334 | INFO | GMM: k=3,covariance=full
+2026-07-17 22:34:37,302 | INFO | GMM: k=4,covariance=full
+2026-07-17 22:34:38,315 | INFO | GMM: k=5,covariance=full
+2026-07-17 22:34:39,710 | INFO | GMM: k=6,covariance=full
+2026-07-17 22:34:40,657 | INFO | GMM: k=7,covariance=full
+2026-07-17 22:34:41,707 | INFO | GMM: k=8,covariance=full
+2026-07-17 22:34:43,447 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/gmm_bic_aic.png
+2026-07-17 22:34:44,034 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/gmm_convergence_curve.png
+2026-07-17 22:34:45,535 | INFO | KMeans seed-stability run 1/20
+2026-07-17 22:34:45,650 | INFO | KMeans seed-stability run 2/20
+2026-07-17 22:34:45,715 | INFO | KMeans seed-stability run 3/20
+2026-07-17 22:34:45,798 | INFO | KMeans seed-stability run 4/20
+2026-07-17 22:34:45,804 | INFO | KMeans seed-stability run 5/20
+2026-07-17 22:34:45,815 | INFO | KMeans seed-stability run 6/20
+2026-07-17 22:34:45,825 | INFO | KMeans seed-stability run 7/20
+2026-07-17 22:34:45,833 | INFO | KMeans seed-stability run 8/20
+2026-07-17 22:34:45,838 | INFO | KMeans seed-stability run 9/20
+2026-07-17 22:34:45,848 | INFO | KMeans seed-stability run 10/20
+2026-07-17 22:34:45,852 | INFO | KMeans seed-stability run 11/20
+2026-07-17 22:34:45,863 | INFO | KMeans seed-stability run 12/20
+2026-07-17 22:34:45,871 | INFO | KMeans seed-stability run 13/20
+2026-07-17 22:34:45,884 | INFO | KMeans seed-stability run 14/20
+2026-07-17 22:34:45,893 | INFO | KMeans seed-stability run 15/20
+2026-07-17 22:34:45,898 | INFO | KMeans seed-stability run 16/20
+2026-07-17 22:34:45,909 | INFO | KMeans seed-stability run 17/20
+2026-07-17 22:34:45,919 | INFO | KMeans seed-stability run 18/20
+2026-07-17 22:34:45,933 | INFO | KMeans seed-stability run 19/20
+2026-07-17 22:34:45,943 | INFO | KMeans seed-stability run 20/20
+2026-07-17 22:34:46,154 | INFO | GMM seed-stability run 1/20
+2026-07-17 22:34:46,564 | INFO | GMM seed-stability run 2/20
+2026-07-17 22:34:46,951 | INFO | GMM seed-stability run 3/20
+2026-07-17 22:34:47,314 | INFO | GMM seed-stability run 4/20
+2026-07-17 22:34:47,815 | INFO | GMM seed-stability run 5/20
+2026-07-17 22:34:48,191 | INFO | GMM seed-stability run 6/20
+2026-07-17 22:34:48,562 | INFO | GMM seed-stability run 7/20
+2026-07-17 22:34:49,181 | INFO | GMM seed-stability run 8/20
+2026-07-17 22:34:49,807 | INFO | GMM seed-stability run 9/20
+2026-07-17 22:34:50,470 | INFO | GMM seed-stability run 10/20
+2026-07-17 22:34:50,935 | INFO | GMM seed-stability run 11/20
+2026-07-17 22:34:51,336 | INFO | GMM seed-stability run 12/20
+2026-07-17 22:34:51,776 | INFO | GMM seed-stability run 13/20
+2026-07-17 22:34:52,282 | INFO | GMM seed-stability run 14/20
+2026-07-17 22:34:52,862 | INFO | GMM seed-stability run 15/20
+2026-07-17 22:34:53,417 | INFO | GMM seed-stability run 16/20
+2026-07-17 22:34:53,937 | INFO | GMM seed-stability run 17/20
+2026-07-17 22:34:54,583 | INFO | GMM seed-stability run 18/20
+2026-07-17 22:34:55,173 | INFO | GMM seed-stability run 19/20
+2026-07-17 22:34:55,624 | INFO | GMM seed-stability run 20/20
+2026-07-17 22:35:01,684 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/stability_comparison.png
+2026-07-17 22:35:01,923 | INFO | Figure saved: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2/algorithm_agreement_heatmap.png
+2026-07-17 22:35:03,614 | INFO | =================================================================
+2026-07-17 22:35:03,614 | INFO | Phase 2 completed successfully in 0.96 minutes
+2026-07-17 22:35:03,614 | INFO | Reports: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/phase2
+2026-07-17 22:35:03,615 | INFO | Figures: /Users/nic/Desktop/Data-mining/credit-card-clustering/reports/figures/phase2
+2026-07-17 22:35:03,615 | INFO | =================================================================
