@@ -1,7 +1,7 @@
 {
   "status": "completed",
-  "elapsed_seconds": 46.585876375,
-  "elapsed_minutes": 0.7764312729166666,
+  "elapsed_seconds": 56.144531709000006,
+  "elapsed_minutes": 0.9357421951500001,
   "representation": "X_pca",
   "evaluation_size": 6000,
   "random_seed": 42,
