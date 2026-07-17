@@ -1,0 +1,5 @@
+distance_metric,cluster,size,fraction
+euclidean,0,2499,0.9996
+euclidean,1,1,0.0004
+manhattan,0,2499,0.9996
+manhattan,1,1,0.0004

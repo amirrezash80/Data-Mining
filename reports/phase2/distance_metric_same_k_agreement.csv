@@ -1,0 +1,8 @@
+k,euclidean_actual_k,manhattan_actual_k,ari_between_metrics,identical_partition
+2,2,2,1.0,True
+3,3,3,0.33253290760930215,False
+4,4,4,0.4990989800645264,False
+5,5,5,0.5990383858209634,False
+6,6,6,1.0,True
+7,7,7,0.8226709296293155,False
+8,8,8,0.7988348681336138,False
