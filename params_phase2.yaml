@@ -10,6 +10,7 @@ sampling:
   hierarchy_dendrogram_size: 2000
   silhouette_sample_size: 3000
   stability_anchor_size: 1500
+  metric_comparison_size: 2500
 
 cluster_search:
   k_min: 2
@@ -21,6 +22,7 @@ kmeans:
   max_iter: 300
 
 hierarchical:
+  fixed_height_ratio: 0.70
   linkages:
     - single
     - complete

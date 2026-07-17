@@ -1,0 +1,6 @@
+{
+  "euclidean_selected_k": 2,
+  "manhattan_selected_k": 2,
+  "ari_between_selected_partitions": 1.0,
+  "distance_sensitivity_level": "low"
+}

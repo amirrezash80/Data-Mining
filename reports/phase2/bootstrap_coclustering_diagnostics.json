@@ -1,0 +1,9 @@
+{
+  "mean_within_cluster_probability": 0.9749857783317566,
+  "median_within_cluster_probability": 1.0,
+  "minimum_within_cluster_probability": 0.6499999761581421,
+  "mean_between_cluster_probability": 0.6194447875022888,
+  "median_between_cluster_probability": 0.6000000238418579,
+  "maximum_between_cluster_probability": 0.6499999761581421,
+  "probability_separation": 0.3555409908294678
+}
