@@ -1,0 +1,3 @@
+cluster,cluster_size,medoid_sample_position,centroid_exemplar_position,medoid_centroid_same_record,medoid_objective,centroid_exemplar_medoid_objective,objective_improvement_from_true_medoid,minimum_silhouette,maximum_silhouette,mean_silhouette,negative_silhouette_fraction,medoid_runtime_seconds,medoid_calculation
+0,3,136,136,True,25.538960857994105,25.538960857994105,0.0,0.5923465741984025,0.6481418829121673,0.6113740586049613,0.0,0.001263833000000325,Exact minimum total Euclidean distance
+1,2497,511,511,True,13027.153882133189,13027.153882133189,0.0,0.14776261138754038,0.8669955959587726,0.8275051602702557,0.0,0.0750845830000002,Exact minimum total Euclidean distance

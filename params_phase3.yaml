@@ -43,6 +43,7 @@ interpretation:
   tree_min_samples_leaf: 30
   top_features_per_cluster: 5
   exemplars_per_cluster: 3
+  medoid_chunk_size: 256
 
 anomaly:
   top_n: 100
