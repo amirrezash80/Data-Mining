@@ -1,0 +1,10 @@
+{
+  "silhouette_change": -0.061367769992483945,
+  "davies_bouldin_improvement": -0.2766342133373333,
+  "calinski_harabasz_change": 21.99851866157792,
+  "external_ari_change": 0.4991129523526001,
+  "external_nmi_change": 0.37084691035599365,
+  "ari_between_phase2_and_consensus": -0.0005998788696877406,
+  "internal_metrics_improved_count": 1,
+  "conclusion": "Consensus produces a mixed result: one internal metric improves while the others do not."
+}

@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "phase2_winner": {
+    "recommended_algorithm": "Hierarchical",
+    "recommended_parameters": "k=2,linkage=single",
+    "recommended_k": 2,
+    "selection_source": "reports/phase2/phase2_final_recommendation.json"
+  },
+  "sample_size": 2500,
+  "pca_dimensions": 28,
+  "phase2_cluster_count": 2,
+  "consensus_cluster_count": 2,
+  "silhouette_change": -0.061367769992483945,
+  "davies_bouldin_improvement": -0.2766342133373333,
+  "calinski_harabasz_change": 21.99851866157792,
+  "external_ari_change": 0.4991129523526001,
+  "external_nmi_change": 0.37084691035599365,
+  "ari_between_phase2_and_consensus": -0.0005998788696877406,
+  "internal_metrics_improved_count": 1,
+  "conclusion": "Consensus produces a mixed result: one internal metric improves while the others do not.",
+  "generated_figures": [
+    "reports/figures/phase3/phase2_winner_vs_consensus.png",
+    "reports/figures/phase3/phase2_winner_vs_consensus_pca.png"
+  ]
+}

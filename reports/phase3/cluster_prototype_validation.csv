@@ -1,0 +1,3 @@
+cluster,required_types_present,medoid_is_actual_record,prototype_count,medoid_objective_in_selected_set,minimum_selected_objective
+0,True,True,4,25.538960857994105,25.538960857994105
+1,True,True,4,13027.153882133189,13027.153882133189
