@@ -1,0 +1,17 @@
+{
+  "preferred_algorithm": "Hierarchical",
+  "analysed_record_count": 100,
+  "minimum_silhouette": 0.0,
+  "mean_silhouette": 0.6953249807921668,
+  "negative_silhouette_count": 0,
+  "negative_silhouette_fraction": 0.0,
+  "boundary_count": 1,
+  "boundary_fraction": 0.01,
+  "diagnostic_category_counts": {
+    "weakly_separated": 99,
+    "boundary_case": 1
+  },
+  "fraud_rate_lowest_silhouette": 0.06,
+  "amount_median_lowest_silhouette": 35.445,
+  "amount_mean_lowest_silhouette": 533.3472999999999
+}
