@@ -44,6 +44,7 @@ interpretation:
   top_features_per_cluster: 5
   exemplars_per_cluster: 3
   medoid_chunk_size: 256
+  shap_sample_size: 2000
 
 anomaly:
   top_n: 100
